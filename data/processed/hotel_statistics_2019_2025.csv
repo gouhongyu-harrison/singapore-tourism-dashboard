@@ -1,0 +1,925 @@
+date,year,month,metric,segment,value,unit
+2019-01-01,2019,1,Available Room Nights,All gazetted hotels,1830834.0,room nights
+2019-01-01,2019,1,Average Hotel Occupancy Rate,All gazetted hotels,84.7,percent
+2019-01-01,2019,1,Average Hotel Occupancy Rate,Large,86.7,percent
+2019-01-01,2019,1,Average Hotel Occupancy Rate,Medium,83.4,percent
+2019-01-01,2019,1,Average Hotel Occupancy Rate,Small,72.7,percent
+2019-01-01,2019,1,Average Room Rate,All gazetted hotels,215.9,SGD per room night
+2019-01-01,2019,1,Average Room Rate,Large,231.3,SGD per room night
+2019-01-01,2019,1,Average Room Rate,Medium,193.1,SGD per room night
+2019-01-01,2019,1,Average Room Rate,Small,136.2,SGD per room night
+2019-01-01,2019,1,Gross Lettings,All gazetted hotels,1550957.0,room nights
+2019-01-01,2019,1,Room Revenue,All gazetted hotels,334808.5,SGD thousand
+2019-02-01,2019,2,Available Room Nights,All gazetted hotels,1658376.0,room nights
+2019-02-01,2019,2,Average Hotel Occupancy Rate,All gazetted hotels,88.5,percent
+2019-02-01,2019,2,Average Hotel Occupancy Rate,Large,90.9,percent
+2019-02-01,2019,2,Average Hotel Occupancy Rate,Medium,87.4,percent
+2019-02-01,2019,2,Average Hotel Occupancy Rate,Small,73.0,percent
+2019-02-01,2019,2,Average Room Rate,All gazetted hotels,224.1,SGD per room night
+2019-02-01,2019,2,Average Room Rate,Large,239.2,SGD per room night
+2019-02-01,2019,2,Average Room Rate,Medium,203.5,SGD per room night
+2019-02-01,2019,2,Average Room Rate,Small,138.7,SGD per room night
+2019-02-01,2019,2,Gross Lettings,All gazetted hotels,1467338.0,room nights
+2019-02-01,2019,2,Room Revenue,All gazetted hotels,328912.2,SGD thousand
+2019-03-01,2019,3,Available Room Nights,All gazetted hotels,1828569.0,room nights
+2019-03-01,2019,3,Average Hotel Occupancy Rate,All gazetted hotels,84.3,percent
+2019-03-01,2019,3,Average Hotel Occupancy Rate,Large,86.8,percent
+2019-03-01,2019,3,Average Hotel Occupancy Rate,Medium,81.9,percent
+2019-03-01,2019,3,Average Hotel Occupancy Rate,Small,71.1,percent
+2019-03-01,2019,3,Average Room Rate,All gazetted hotels,214.8,SGD per room night
+2019-03-01,2019,3,Average Room Rate,Large,231.9,SGD per room night
+2019-03-01,2019,3,Average Room Rate,Medium,186.0,SGD per room night
+2019-03-01,2019,3,Average Room Rate,Small,132.6,SGD per room night
+2019-03-01,2019,3,Gross Lettings,All gazetted hotels,1541773.0,room nights
+2019-03-01,2019,3,Room Revenue,All gazetted hotels,331225.1,SGD thousand
+2019-04-01,2019,4,Available Room Nights,All gazetted hotels,1767049.0,room nights
+2019-04-01,2019,4,Average Hotel Occupancy Rate,All gazetted hotels,85.4,percent
+2019-04-01,2019,4,Average Hotel Occupancy Rate,Large,87.3,percent
+2019-04-01,2019,4,Average Hotel Occupancy Rate,Medium,83.7,percent
+2019-04-01,2019,4,Average Hotel Occupancy Rate,Small,75.5,percent
+2019-04-01,2019,4,Average Room Rate,All gazetted hotels,215.0,SGD per room night
+2019-04-01,2019,4,Average Room Rate,Large,232.1,SGD per room night
+2019-04-01,2019,4,Average Room Rate,Medium,189.3,SGD per room night
+2019-04-01,2019,4,Average Room Rate,Small,131.8,SGD per room night
+2019-04-01,2019,4,Gross Lettings,All gazetted hotels,1509500.0,room nights
+2019-04-01,2019,4,Room Revenue,All gazetted hotels,324915.0,SGD thousand
+2019-05-01,2019,5,Available Room Nights,All gazetted hotels,1811517.0,room nights
+2019-05-01,2019,5,Average Hotel Occupancy Rate,All gazetted hotels,82.0,percent
+2019-05-01,2019,5,Average Hotel Occupancy Rate,Large,83.8,percent
+2019-05-01,2019,5,Average Hotel Occupancy Rate,Medium,80.7,percent
+2019-05-01,2019,5,Average Hotel Occupancy Rate,Small,71.4,percent
+2019-05-01,2019,5,Average Room Rate,All gazetted hotels,206.5,SGD per room night
+2019-05-01,2019,5,Average Room Rate,Large,222.3,SGD per room night
+2019-05-01,2019,5,Average Room Rate,Medium,183.4,SGD per room night
+2019-05-01,2019,5,Average Room Rate,Small,127.3,SGD per room night
+2019-05-01,2019,5,Gross Lettings,All gazetted hotels,1485293.0,room nights
+2019-05-01,2019,5,Room Revenue,All gazetted hotels,306710.4,SGD thousand
+2019-06-01,2019,6,Available Room Nights,All gazetted hotels,1761383.0,room nights
+2019-06-01,2019,6,Average Hotel Occupancy Rate,All gazetted hotels,86.1,percent
+2019-06-01,2019,6,Average Hotel Occupancy Rate,Large,88.2,percent
+2019-06-01,2019,6,Average Hotel Occupancy Rate,Medium,84.4,percent
+2019-06-01,2019,6,Average Hotel Occupancy Rate,Small,74.9,percent
+2019-06-01,2019,6,Average Room Rate,All gazetted hotels,210.6,SGD per room night
+2019-06-01,2019,6,Average Room Rate,Large,226.2,SGD per room night
+2019-06-01,2019,6,Average Room Rate,Medium,186.9,SGD per room night
+2019-06-01,2019,6,Average Room Rate,Small,131.3,SGD per room night
+2019-06-01,2019,6,Gross Lettings,All gazetted hotels,1517318.0,room nights
+2019-06-01,2019,6,Room Revenue,All gazetted hotels,319771.6,SGD thousand
+2019-07-01,2019,7,Available Room Nights,All gazetted hotels,1837350.0,room nights
+2019-07-01,2019,7,Average Hotel Occupancy Rate,All gazetted hotels,93.9,percent
+2019-07-01,2019,7,Average Hotel Occupancy Rate,Large,95.2,percent
+2019-07-01,2019,7,Average Hotel Occupancy Rate,Medium,92.6,percent
+2019-07-01,2019,7,Average Hotel Occupancy Rate,Small,87.0,percent
+2019-07-01,2019,7,Average Room Rate,All gazetted hotels,218.7,SGD per room night
+2019-07-01,2019,7,Average Room Rate,Large,234.6,SGD per room night
+2019-07-01,2019,7,Average Room Rate,Medium,195.9,SGD per room night
+2019-07-01,2019,7,Average Room Rate,Small,138.4,SGD per room night
+2019-07-01,2019,7,Gross Lettings,All gazetted hotels,1725297.0,room nights
+2019-07-01,2019,7,Room Revenue,All gazetted hotels,377573.2,SGD thousand
+2019-08-01,2019,8,Available Room Nights,All gazetted hotels,1832265.0,room nights
+2019-08-01,2019,8,Average Hotel Occupancy Rate,All gazetted hotels,92.4,percent
+2019-08-01,2019,8,Average Hotel Occupancy Rate,Large,94.0,percent
+2019-08-01,2019,8,Average Hotel Occupancy Rate,Medium,91.5,percent
+2019-08-01,2019,8,Average Hotel Occupancy Rate,Small,82.4,percent
+2019-08-01,2019,8,Average Room Rate,All gazetted hotels,225.1,SGD per room night
+2019-08-01,2019,8,Average Room Rate,Large,241.5,SGD per room night
+2019-08-01,2019,8,Average Room Rate,Medium,200.2,SGD per room night
+2019-08-01,2019,8,Average Room Rate,Small,142.4,SGD per room night
+2019-08-01,2019,8,Gross Lettings,All gazetted hotels,1693776.0,room nights
+2019-08-01,2019,8,Room Revenue,All gazetted hotels,383423.8,SGD thousand
+2019-09-01,2019,9,Available Room Nights,All gazetted hotels,1828671.0,room nights
+2019-09-01,2019,9,Average Hotel Occupancy Rate,All gazetted hotels,87.1,percent
+2019-09-01,2019,9,Average Hotel Occupancy Rate,Large,89.4,percent
+2019-09-01,2019,9,Average Hotel Occupancy Rate,Medium,85.2,percent
+2019-09-01,2019,9,Average Hotel Occupancy Rate,Small,74.6,percent
+2019-09-01,2019,9,Average Room Rate,All gazetted hotels,235.4,SGD per room night
+2019-09-01,2019,9,Average Room Rate,Large,251.0,SGD per room night
+2019-09-01,2019,9,Average Room Rate,Medium,216.6,SGD per room night
+2019-09-01,2019,9,Average Room Rate,Small,143.5,SGD per room night
+2019-09-01,2019,9,Gross Lettings,All gazetted hotels,1593343.0,room nights
+2019-09-01,2019,9,Room Revenue,All gazetted hotels,375892.7,SGD thousand
+2019-10-01,2019,10,Available Room Nights,All gazetted hotels,1911073.0,room nights
+2019-10-01,2019,10,Average Hotel Occupancy Rate,All gazetted hotels,86.9,percent
+2019-10-01,2019,10,Average Hotel Occupancy Rate,Large,89.3,percent
+2019-10-01,2019,10,Average Hotel Occupancy Rate,Medium,84.6,percent
+2019-10-01,2019,10,Average Hotel Occupancy Rate,Small,74.3,percent
+2019-10-01,2019,10,Average Room Rate,All gazetted hotels,223.6,SGD per room night
+2019-10-01,2019,10,Average Room Rate,Large,238.4,SGD per room night
+2019-10-01,2019,10,Average Room Rate,Medium,206.4,SGD per room night
+2019-10-01,2019,10,Average Room Rate,Small,135.1,SGD per room night
+2019-10-01,2019,10,Gross Lettings,All gazetted hotels,1661171.0,room nights
+2019-10-01,2019,10,Room Revenue,All gazetted hotels,372207.6,SGD thousand
+2019-11-01,2019,11,Available Room Nights,All gazetted hotels,1846820.0,room nights
+2019-11-01,2019,11,Average Hotel Occupancy Rate,All gazetted hotels,88.8,percent
+2019-11-01,2019,11,Average Hotel Occupancy Rate,Large,91.4,percent
+2019-11-01,2019,11,Average Hotel Occupancy Rate,Medium,86.4,percent
+2019-11-01,2019,11,Average Hotel Occupancy Rate,Small,75.0,percent
+2019-11-01,2019,11,Average Room Rate,All gazetted hotels,224.5,SGD per room night
+2019-11-01,2019,11,Average Room Rate,Large,238.3,SGD per room night
+2019-11-01,2019,11,Average Room Rate,Medium,210.1,SGD per room night
+2019-11-01,2019,11,Average Room Rate,Small,134.4,SGD per room night
+2019-11-01,2019,11,Gross Lettings,All gazetted hotels,1640436.0,room nights
+2019-11-01,2019,11,Room Revenue,All gazetted hotels,368506.3,SGD thousand
+2019-12-01,2019,12,Available Room Nights,All gazetted hotels,1912817.0,room nights
+2019-12-01,2019,12,Average Hotel Occupancy Rate,All gazetted hotels,83.0,percent
+2019-12-01,2019,12,Average Hotel Occupancy Rate,Large,85.7,percent
+2019-12-01,2019,12,Average Hotel Occupancy Rate,Medium,80.1,percent
+2019-12-01,2019,12,Average Hotel Occupancy Rate,Small,69.2,percent
+2019-12-01,2019,12,Average Room Rate,All gazetted hotels,233.6,SGD per room night
+2019-12-01,2019,12,Average Room Rate,Large,244.6,SGD per room night
+2019-12-01,2019,12,Average Room Rate,Medium,227.2,SGD per room night
+2019-12-01,2019,12,Average Room Rate,Small,150.0,SGD per room night
+2019-12-01,2019,12,Gross Lettings,All gazetted hotels,1587373.0,room nights
+2019-12-01,2019,12,Room Revenue,All gazetted hotels,371830.3,SGD thousand
+2020-01-01,2020,1,Available Room Nights,All gazetted hotels,1926285.0,room nights
+2020-01-01,2020,1,Average Hotel Occupancy Rate,All gazetted hotels,83.0,percent
+2020-01-01,2020,1,Average Hotel Occupancy Rate,Large,84.7,percent
+2020-01-01,2020,1,Average Hotel Occupancy Rate,Medium,81.7,percent
+2020-01-01,2020,1,Average Hotel Occupancy Rate,Small,72.6,percent
+2020-01-01,2020,1,Average Room Rate,All gazetted hotels,231.1,SGD per room night
+2020-01-01,2020,1,Average Room Rate,Large,245.2,SGD per room night
+2020-01-01,2020,1,Average Room Rate,Medium,216.8,SGD per room night
+2020-01-01,2020,1,Average Room Rate,Small,144.4,SGD per room night
+2020-01-01,2020,1,Gross Lettings,All gazetted hotels,1597859.0,room nights
+2020-01-01,2020,1,Room Revenue,All gazetted hotels,369259.6,SGD thousand
+2020-02-01,2020,2,Available Room Nights,All gazetted hotels,1694775.0,room nights
+2020-02-01,2020,2,Average Hotel Occupancy Rate,All gazetted hotels,49.1,percent
+2020-02-01,2020,2,Average Hotel Occupancy Rate,Large,49.5,percent
+2020-02-01,2020,2,Average Hotel Occupancy Rate,Medium,49.3,percent
+2020-02-01,2020,2,Average Hotel Occupancy Rate,Small,45.7,percent
+2020-02-01,2020,2,Average Room Rate,All gazetted hotels,224.3,SGD per room night
+2020-02-01,2020,2,Average Room Rate,Large,240.0,SGD per room night
+2020-02-01,2020,2,Average Room Rate,Medium,203.3,SGD per room night
+2020-02-01,2020,2,Average Room Rate,Small,154.0,SGD per room night
+2020-02-01,2020,2,Gross Lettings,All gazetted hotels,831421.0,room nights
+2020-02-01,2020,2,Room Revenue,All gazetted hotels,186474.1,SGD thousand
+2020-03-01,2020,3,Available Room Nights,All gazetted hotels,1776618.0,room nights
+2020-03-01,2020,3,Average Hotel Occupancy Rate,All gazetted hotels,40.2,percent
+2020-03-01,2020,3,Average Hotel Occupancy Rate,Large,39.8,percent
+2020-03-01,2020,3,Average Hotel Occupancy Rate,Medium,40.0,percent
+2020-03-01,2020,3,Average Hotel Occupancy Rate,Small,43.4,percent
+2020-03-01,2020,3,Average Room Rate,All gazetted hotels,170.6,SGD per room night
+2020-03-01,2020,3,Average Room Rate,Large,182.0,SGD per room night
+2020-03-01,2020,3,Average Room Rate,Medium,164.3,SGD per room night
+2020-03-01,2020,3,Average Room Rate,Small,110.4,SGD per room night
+2020-03-01,2020,3,Gross Lettings,All gazetted hotels,713530.0,room nights
+2020-03-01,2020,3,Room Revenue,All gazetted hotels,121760.7,SGD thousand
+2020-04-01,2020,4,Available Room Nights,All gazetted hotels,1522885.0,room nights
+2020-04-01,2020,4,Average Hotel Occupancy Rate,All gazetted hotels,40.4,percent
+2020-04-01,2020,4,Average Hotel Occupancy Rate,Large,39.6,percent
+2020-04-01,2020,4,Average Hotel Occupancy Rate,Medium,41.2,percent
+2020-04-01,2020,4,Average Hotel Occupancy Rate,Small,44.2,percent
+2020-04-01,2020,4,Average Room Rate,All gazetted hotels,88.7,SGD per room night
+2020-04-01,2020,4,Average Room Rate,Large,91.1,SGD per room night
+2020-04-01,2020,4,Average Room Rate,Medium,91.7,SGD per room night
+2020-04-01,2020,4,Average Room Rate,Small,69.6,SGD per room night
+2020-04-01,2020,4,Gross Lettings,All gazetted hotels,615760.0,room nights
+2020-04-01,2020,4,Room Revenue,All gazetted hotels,54612.1,SGD thousand
+2020-05-01,2020,5,Available Room Nights,All gazetted hotels,1001913.0,room nights
+2020-05-01,2020,5,Average Hotel Occupancy Rate,All gazetted hotels,59.3,percent
+2020-05-01,2020,5,Average Hotel Occupancy Rate,Large,62.5,percent
+2020-05-01,2020,5,Average Hotel Occupancy Rate,Medium,54.7,percent
+2020-05-01,2020,5,Average Hotel Occupancy Rate,Small,52.5,percent
+2020-05-01,2020,5,Average Room Rate,All gazetted hotels,64.5,SGD per room night
+2020-05-01,2020,5,Average Room Rate,Large,64.2,SGD per room night
+2020-05-01,2020,5,Average Room Rate,Medium,71.8,SGD per room night
+2020-05-01,2020,5,Average Room Rate,Small,54.3,SGD per room night
+2020-05-01,2020,5,Gross Lettings,All gazetted hotels,593689.0,room nights
+2020-05-01,2020,5,Room Revenue,All gazetted hotels,38270.2,SGD thousand
+2020-06-01,2020,6,Available Room Nights,All gazetted hotels,902667.0,room nights
+2020-06-01,2020,6,Average Hotel Occupancy Rate,All gazetted hotels,57.0,percent
+2020-06-01,2020,6,Average Hotel Occupancy Rate,Large,61.5,percent
+2020-06-01,2020,6,Average Hotel Occupancy Rate,Medium,46.7,percent
+2020-06-01,2020,6,Average Hotel Occupancy Rate,Small,52.1,percent
+2020-06-01,2020,6,Average Room Rate,All gazetted hotels,64.9,SGD per room night
+2020-06-01,2020,6,Average Room Rate,Large,65.9,SGD per room night
+2020-06-01,2020,6,Average Room Rate,Medium,72.5,SGD per room night
+2020-06-01,2020,6,Average Room Rate,Small,50.9,SGD per room night
+2020-06-01,2020,6,Gross Lettings,All gazetted hotels,514964.0,room nights
+2020-06-01,2020,6,Room Revenue,All gazetted hotels,33441.7,SGD thousand
+2020-07-01,2020,7,Available Room Nights,All gazetted hotels,673407.0,room nights
+2020-07-01,2020,7,Average Hotel Occupancy Rate,All gazetted hotels,66.4,percent
+2020-07-01,2020,7,Average Hotel Occupancy Rate,Large,70.7,percent
+2020-07-01,2020,7,Average Hotel Occupancy Rate,Medium,59.9,percent
+2020-07-01,2020,7,Average Hotel Occupancy Rate,Small,61.8,percent
+2020-07-01,2020,7,Average Room Rate,All gazetted hotels,83.4,SGD per room night
+2020-07-01,2020,7,Average Room Rate,Large,79.9,SGD per room night
+2020-07-01,2020,7,Average Room Rate,Medium,117.0,SGD per room night
+2020-07-01,2020,7,Average Room Rate,Small,58.6,SGD per room night
+2020-07-01,2020,7,Gross Lettings,All gazetted hotels,447085.0,room nights
+2020-07-01,2020,7,Room Revenue,All gazetted hotels,37825.8,SGD thousand
+2020-08-01,2020,8,Available Room Nights,All gazetted hotels,817726.0,room nights
+2020-08-01,2020,8,Average Hotel Occupancy Rate,All gazetted hotels,64.8,percent
+2020-08-01,2020,8,Average Hotel Occupancy Rate,Large,63.9,percent
+2020-08-01,2020,8,Average Hotel Occupancy Rate,Medium,66.8,percent
+2020-08-01,2020,8,Average Hotel Occupancy Rate,Small,65.6,percent
+2020-08-01,2020,8,Average Room Rate,All gazetted hotels,121.0,SGD per room night
+2020-08-01,2020,8,Average Room Rate,Large,124.3,SGD per room night
+2020-08-01,2020,8,Average Room Rate,Medium,149.0,SGD per room night
+2020-08-01,2020,8,Average Room Rate,Small,72.6,SGD per room night
+2020-08-01,2020,8,Gross Lettings,All gazetted hotels,529518.0,room nights
+2020-08-01,2020,8,Room Revenue,All gazetted hotels,64049.2,SGD thousand
+2020-09-01,2020,9,Available Room Nights,All gazetted hotels,826251.0,room nights
+2020-09-01,2020,9,Average Hotel Occupancy Rate,All gazetted hotels,63.1,percent
+2020-09-01,2020,9,Average Hotel Occupancy Rate,Large,62.3,percent
+2020-09-01,2020,9,Average Hotel Occupancy Rate,Medium,62.4,percent
+2020-09-01,2020,9,Average Hotel Occupancy Rate,Small,67.5,percent
+2020-09-01,2020,9,Average Room Rate,All gazetted hotels,125.7,SGD per room night
+2020-09-01,2020,9,Average Room Rate,Large,126.1,SGD per room night
+2020-09-01,2020,9,Average Room Rate,Medium,166.7,SGD per room night
+2020-09-01,2020,9,Average Room Rate,Small,75.0,SGD per room night
+2020-09-01,2020,9,Gross Lettings,All gazetted hotels,521554.0,room nights
+2020-09-01,2020,9,Room Revenue,All gazetted hotels,65589.1,SGD thousand
+2020-10-01,2020,10,Available Room Nights,All gazetted hotels,899779.0,room nights
+2020-10-01,2020,10,Average Hotel Occupancy Rate,All gazetted hotels,57.6,percent
+2020-10-01,2020,10,Average Hotel Occupancy Rate,Large,56.5,percent
+2020-10-01,2020,10,Average Hotel Occupancy Rate,Medium,56.1,percent
+2020-10-01,2020,10,Average Hotel Occupancy Rate,Small,63.8,percent
+2020-10-01,2020,10,Average Room Rate,All gazetted hotels,143.5,SGD per room night
+2020-10-01,2020,10,Average Room Rate,Large,144.0,SGD per room night
+2020-10-01,2020,10,Average Room Rate,Medium,199.2,SGD per room night
+2020-10-01,2020,10,Average Room Rate,Small,78.7,SGD per room night
+2020-10-01,2020,10,Gross Lettings,All gazetted hotels,518190.0,room nights
+2020-10-01,2020,10,Room Revenue,All gazetted hotels,74360.3,SGD thousand
+2020-11-01,2020,11,Available Room Nights,All gazetted hotels,898017.0,room nights
+2020-11-01,2020,11,Average Hotel Occupancy Rate,All gazetted hotels,54.2,percent
+2020-11-01,2020,11,Average Hotel Occupancy Rate,Large,53.3,percent
+2020-11-01,2020,11,Average Hotel Occupancy Rate,Medium,50.7,percent
+2020-11-01,2020,11,Average Hotel Occupancy Rate,Small,61.9,percent
+2020-11-01,2020,11,Average Room Rate,All gazetted hotels,154.6,SGD per room night
+2020-11-01,2020,11,Average Room Rate,Large,156.9,SGD per room night
+2020-11-01,2020,11,Average Room Rate,Medium,218.3,SGD per room night
+2020-11-01,2020,11,Average Room Rate,Small,83.3,SGD per room night
+2020-11-01,2020,11,Gross Lettings,All gazetted hotels,486441.0,room nights
+2020-11-01,2020,11,Room Revenue,All gazetted hotels,75209.2,SGD thousand
+2020-12-01,2020,12,Available Room Nights,All gazetted hotels,977156.0,room nights
+2020-12-01,2020,12,Average Hotel Occupancy Rate,All gazetted hotels,62.0,percent
+2020-12-01,2020,12,Average Hotel Occupancy Rate,Large,65.3,percent
+2020-12-01,2020,12,Average Hotel Occupancy Rate,Medium,57.9,percent
+2020-12-01,2020,12,Average Hotel Occupancy Rate,Small,54.8,percent
+2020-12-01,2020,12,Average Room Rate,All gazetted hotels,186.6,SGD per room night
+2020-12-01,2020,12,Average Room Rate,Large,186.0,SGD per room night
+2020-12-01,2020,12,Average Room Rate,Medium,252.6,SGD per room night
+2020-12-01,2020,12,Average Room Rate,Small,105.0,SGD per room night
+2020-12-01,2020,12,Gross Lettings,All gazetted hotels,606305.0,room nights
+2020-12-01,2020,12,Room Revenue,All gazetted hotels,113156.2,SGD thousand
+2021-01-01,2021,1,Available Room Nights,All gazetted hotels,1025455.0,room nights
+2021-01-01,2021,1,Average Hotel Occupancy Rate,All gazetted hotels,44.3,percent
+2021-01-01,2021,1,Average Hotel Occupancy Rate,Large,43.9,percent
+2021-01-01,2021,1,Average Hotel Occupancy Rate,Medium,43.5,percent
+2021-01-01,2021,1,Average Hotel Occupancy Rate,Small,47.0,percent
+2021-01-01,2021,1,Average Room Rate,All gazetted hotels,150.8,SGD per room night
+2021-01-01,2021,1,Average Room Rate,Large,159.0,SGD per room night
+2021-01-01,2021,1,Average Room Rate,Medium,183.8,SGD per room night
+2021-01-01,2021,1,Average Room Rate,Small,82.3,SGD per room night
+2021-01-01,2021,1,Gross Lettings,All gazetted hotels,454413.0,room nights
+2021-01-01,2021,1,Room Revenue,All gazetted hotels,68551.6,SGD thousand
+2021-02-01,2021,2,Available Room Nights,All gazetted hotels,957525.0,room nights
+2021-02-01,2021,2,Average Hotel Occupancy Rate,All gazetted hotels,44.2,percent
+2021-02-01,2021,2,Average Hotel Occupancy Rate,Large,43.8,percent
+2021-02-01,2021,2,Average Hotel Occupancy Rate,Medium,42.6,percent
+2021-02-01,2021,2,Average Hotel Occupancy Rate,Small,47.5,percent
+2021-02-01,2021,2,Average Room Rate,All gazetted hotels,152.4,SGD per room night
+2021-02-01,2021,2,Average Room Rate,Large,161.1,SGD per room night
+2021-02-01,2021,2,Average Room Rate,Medium,190.8,SGD per room night
+2021-02-01,2021,2,Average Room Rate,Small,78.8,SGD per room night
+2021-02-01,2021,2,Gross Lettings,All gazetted hotels,422936.0,room nights
+2021-02-01,2021,2,Room Revenue,All gazetted hotels,64460.5,SGD thousand
+2021-03-01,2021,3,Available Room Nights,All gazetted hotels,1048233.0,room nights
+2021-03-01,2021,3,Average Hotel Occupancy Rate,All gazetted hotels,51.4,percent
+2021-03-01,2021,3,Average Hotel Occupancy Rate,Large,51.5,percent
+2021-03-01,2021,3,Average Hotel Occupancy Rate,Medium,48.3,percent
+2021-03-01,2021,3,Average Hotel Occupancy Rate,Small,54.6,percent
+2021-03-01,2021,3,Average Room Rate,All gazetted hotels,150.6,SGD per room night
+2021-03-01,2021,3,Average Room Rate,Large,158.8,SGD per room night
+2021-03-01,2021,3,Average Room Rate,Medium,192.1,SGD per room night
+2021-03-01,2021,3,Average Room Rate,Small,79.1,SGD per room night
+2021-03-01,2021,3,Gross Lettings,All gazetted hotels,539089.0,room nights
+2021-03-01,2021,3,Room Revenue,All gazetted hotels,81373.0,SGD thousand
+2021-04-01,2021,4,Available Room Nights,All gazetted hotels,1011827.0,room nights
+2021-04-01,2021,4,Average Hotel Occupancy Rate,All gazetted hotels,52.7,percent
+2021-04-01,2021,4,Average Hotel Occupancy Rate,Large,53.1,percent
+2021-04-01,2021,4,Average Hotel Occupancy Rate,Medium,49.6,percent
+2021-04-01,2021,4,Average Hotel Occupancy Rate,Small,54.4,percent
+2021-04-01,2021,4,Average Room Rate,All gazetted hotels,155.9,SGD per room night
+2021-04-01,2021,4,Average Room Rate,Large,165.2,SGD per room night
+2021-04-01,2021,4,Average Room Rate,Medium,197.8,SGD per room night
+2021-04-01,2021,4,Average Room Rate,Small,78.6,SGD per room night
+2021-04-01,2021,4,Gross Lettings,All gazetted hotels,533251.0,room nights
+2021-04-01,2021,4,Room Revenue,All gazetted hotels,83131.9,SGD thousand
+2021-05-01,2021,5,Available Room Nights,All gazetted hotels,943499.0,room nights
+2021-05-01,2021,5,Average Hotel Occupancy Rate,All gazetted hotels,52.9,percent
+2021-05-01,2021,5,Average Hotel Occupancy Rate,Large,53.5,percent
+2021-05-01,2021,5,Average Hotel Occupancy Rate,Medium,46.1,percent
+2021-05-01,2021,5,Average Hotel Occupancy Rate,Small,58.2,percent
+2021-05-01,2021,5,Average Room Rate,All gazetted hotels,139.0,SGD per room night
+2021-05-01,2021,5,Average Room Rate,Large,149.8,SGD per room night
+2021-05-01,2021,5,Average Room Rate,Medium,177.6,SGD per room night
+2021-05-01,2021,5,Average Room Rate,Small,71.2,SGD per room night
+2021-05-01,2021,5,Gross Lettings,All gazetted hotels,499484.0,room nights
+2021-05-01,2021,5,Room Revenue,All gazetted hotels,69425.8,SGD thousand
+2021-06-01,2021,6,Available Room Nights,All gazetted hotels,828799.0,room nights
+2021-06-01,2021,6,Average Hotel Occupancy Rate,All gazetted hotels,54.6,percent
+2021-06-01,2021,6,Average Hotel Occupancy Rate,Large,55.9,percent
+2021-06-01,2021,6,Average Hotel Occupancy Rate,Medium,48.3,percent
+2021-06-01,2021,6,Average Hotel Occupancy Rate,Small,58.1,percent
+2021-06-01,2021,6,Average Room Rate,All gazetted hotels,144.9,SGD per room night
+2021-06-01,2021,6,Average Room Rate,Large,158.3,SGD per room night
+2021-06-01,2021,6,Average Room Rate,Medium,171.3,SGD per room night
+2021-06-01,2021,6,Average Room Rate,Small,77.5,SGD per room night
+2021-06-01,2021,6,Gross Lettings,All gazetted hotels,452894.0,room nights
+2021-06-01,2021,6,Room Revenue,All gazetted hotels,66144.3,SGD thousand
+2021-07-01,2021,7,Available Room Nights,All gazetted hotels,827875.0,room nights
+2021-07-01,2021,7,Average Hotel Occupancy Rate,All gazetted hotels,56.1,percent
+2021-07-01,2021,7,Average Hotel Occupancy Rate,Large,55.0,percent
+2021-07-01,2021,7,Average Hotel Occupancy Rate,Medium,52.1,percent
+2021-07-01,2021,7,Average Hotel Occupancy Rate,Small,64.5,percent
+2021-07-01,2021,7,Average Room Rate,All gazetted hotels,151.3,SGD per room night
+2021-07-01,2021,7,Average Room Rate,Large,162.9,SGD per room night
+2021-07-01,2021,7,Average Room Rate,Medium,188.7,SGD per room night
+2021-07-01,2021,7,Average Room Rate,Small,82.2,SGD per room night
+2021-07-01,2021,7,Gross Lettings,All gazetted hotels,464342.0,room nights
+2021-07-01,2021,7,Room Revenue,All gazetted hotels,70270.7,SGD thousand
+2021-08-01,2021,8,Available Room Nights,All gazetted hotels,826277.0,room nights
+2021-08-01,2021,8,Average Hotel Occupancy Rate,All gazetted hotels,56.1,percent
+2021-08-01,2021,8,Average Hotel Occupancy Rate,Large,56.0,percent
+2021-08-01,2021,8,Average Hotel Occupancy Rate,Medium,52.3,percent
+2021-08-01,2021,8,Average Hotel Occupancy Rate,Small,61.2,percent
+2021-08-01,2021,8,Average Room Rate,All gazetted hotels,151.7,SGD per room night
+2021-08-01,2021,8,Average Room Rate,Large,163.3,SGD per room night
+2021-08-01,2021,8,Average Room Rate,Medium,185.6,SGD per room night
+2021-08-01,2021,8,Average Room Rate,Small,81.8,SGD per room night
+2021-08-01,2021,8,Gross Lettings,All gazetted hotels,463347.0,room nights
+2021-08-01,2021,8,Room Revenue,All gazetted hotels,70278.6,SGD thousand
+2021-09-01,2021,9,Available Room Nights,All gazetted hotels,774563.0,room nights
+2021-09-01,2021,9,Average Hotel Occupancy Rate,All gazetted hotels,65.1,percent
+2021-09-01,2021,9,Average Hotel Occupancy Rate,Large,65.6,percent
+2021-09-01,2021,9,Average Hotel Occupancy Rate,Medium,61.0,percent
+2021-09-01,2021,9,Average Hotel Occupancy Rate,Small,68.7,percent
+2021-09-01,2021,9,Average Room Rate,All gazetted hotels,154.5,SGD per room night
+2021-09-01,2021,9,Average Room Rate,Large,164.6,SGD per room night
+2021-09-01,2021,9,Average Room Rate,Medium,193.3,SGD per room night
+2021-09-01,2021,9,Average Room Rate,Small,83.7,SGD per room night
+2021-09-01,2021,9,Gross Lettings,All gazetted hotels,504266.0,room nights
+2021-09-01,2021,9,Room Revenue,All gazetted hotels,77910.1,SGD thousand
+2021-10-01,2021,10,Available Room Nights,All gazetted hotels,788834.0,room nights
+2021-10-01,2021,10,Average Hotel Occupancy Rate,All gazetted hotels,64.4,percent
+2021-10-01,2021,10,Average Hotel Occupancy Rate,Large,62.1,percent
+2021-10-01,2021,10,Average Hotel Occupancy Rate,Medium,63.5,percent
+2021-10-01,2021,10,Average Hotel Occupancy Rate,Small,72.1,percent
+2021-10-01,2021,10,Average Room Rate,All gazetted hotels,159.5,SGD per room night
+2021-10-01,2021,10,Average Room Rate,Large,171.0,SGD per room night
+2021-10-01,2021,10,Average Room Rate,Medium,196.5,SGD per room night
+2021-10-01,2021,10,Average Room Rate,Small,88.5,SGD per room night
+2021-10-01,2021,10,Gross Lettings,All gazetted hotels,507708.0,room nights
+2021-10-01,2021,10,Room Revenue,All gazetted hotels,81555.6,SGD thousand
+2021-11-01,2021,11,Available Room Nights,All gazetted hotels,743198.0,room nights
+2021-11-01,2021,11,Average Hotel Occupancy Rate,All gazetted hotels,78.0,percent
+2021-11-01,2021,11,Average Hotel Occupancy Rate,Large,78.2,percent
+2021-11-01,2021,11,Average Hotel Occupancy Rate,Medium,74.3,percent
+2021-11-01,2021,11,Average Hotel Occupancy Rate,Small,82.4,percent
+2021-11-01,2021,11,Average Room Rate,All gazetted hotels,174.0,SGD per room night
+2021-11-01,2021,11,Average Room Rate,Large,185.8,SGD per room night
+2021-11-01,2021,11,Average Room Rate,Medium,209.2,SGD per room night
+2021-11-01,2021,11,Average Room Rate,Small,103.4,SGD per room night
+2021-11-01,2021,11,Gross Lettings,All gazetted hotels,579783.0,room nights
+2021-11-01,2021,11,Room Revenue,All gazetted hotels,101263.9,SGD thousand
+2021-12-01,2021,12,Available Room Nights,All gazetted hotels,792231.0,room nights
+2021-12-01,2021,12,Average Hotel Occupancy Rate,All gazetted hotels,74.3,percent
+2021-12-01,2021,12,Average Hotel Occupancy Rate,Large,69.3,percent
+2021-12-01,2021,12,Average Hotel Occupancy Rate,Medium,78.6,percent
+2021-12-01,2021,12,Average Hotel Occupancy Rate,Small,82.8,percent
+2021-12-01,2021,12,Average Room Rate,All gazetted hotels,223.8,SGD per room night
+2021-12-01,2021,12,Average Room Rate,Large,244.3,SGD per room night
+2021-12-01,2021,12,Average Room Rate,Medium,256.4,SGD per room night
+2021-12-01,2021,12,Average Room Rate,Small,133.6,SGD per room night
+2021-12-01,2021,12,Gross Lettings,All gazetted hotels,588766.0,room nights
+2021-12-01,2021,12,Room Revenue,All gazetted hotels,131882.5,SGD thousand
+2022-01-01,2022,1,Available Room Nights,All gazetted hotels,959793.0,room nights
+2022-01-01,2022,1,Average Hotel Occupancy Rate,All gazetted hotels,57.5,percent
+2022-01-01,2022,1,Average Hotel Occupancy Rate,Large,53.9,percent
+2022-01-01,2022,1,Average Hotel Occupancy Rate,Medium,59.4,percent
+2022-01-01,2022,1,Average Hotel Occupancy Rate,Small,67.8,percent
+2022-01-01,2022,1,Average Room Rate,All gazetted hotels,184.9,SGD per room night
+2022-01-01,2022,1,Average Room Rate,Large,208.5,SGD per room night
+2022-01-01,2022,1,Average Room Rate,Medium,190.9,SGD per room night
+2022-01-01,2022,1,Average Room Rate,Small,107.0,SGD per room night
+2022-01-01,2022,1,Gross Lettings,All gazetted hotels,552185.0,room nights
+2022-01-01,2022,1,Room Revenue,All gazetted hotels,102164.8,SGD thousand
+2022-02-01,2022,2,Available Room Nights,All gazetted hotels,886503.0,room nights
+2022-02-01,2022,2,Average Hotel Occupancy Rate,All gazetted hotels,62.7,percent
+2022-02-01,2022,2,Average Hotel Occupancy Rate,Large,60.1,percent
+2022-02-01,2022,2,Average Hotel Occupancy Rate,Medium,61.6,percent
+2022-02-01,2022,2,Average Hotel Occupancy Rate,Small,74.2,percent
+2022-02-01,2022,2,Average Room Rate,All gazetted hotels,193.1,SGD per room night
+2022-02-01,2022,2,Average Room Rate,Large,215.8,SGD per room night
+2022-02-01,2022,2,Average Room Rate,Medium,204.4,SGD per room night
+2022-02-01,2022,2,Average Room Rate,Small,107.4,SGD per room night
+2022-02-01,2022,2,Gross Lettings,All gazetted hotels,555599.0,room nights
+2022-02-01,2022,2,Room Revenue,All gazetted hotels,107563.2,SGD thousand
+2022-03-01,2022,3,Available Room Nights,All gazetted hotels,1319142.0,room nights
+2022-03-01,2022,3,Average Hotel Occupancy Rate,All gazetted hotels,60.6,percent
+2022-03-01,2022,3,Average Hotel Occupancy Rate,Large,57.7,percent
+2022-03-01,2022,3,Average Hotel Occupancy Rate,Medium,61.7,percent
+2022-03-01,2022,3,Average Hotel Occupancy Rate,Small,73.1,percent
+2022-03-01,2022,3,Average Room Rate,All gazetted hotels,192.3,SGD per room night
+2022-03-01,2022,3,Average Room Rate,Large,211.1,SGD per room night
+2022-03-01,2022,3,Average Room Rate,Medium,196.7,SGD per room night
+2022-03-01,2022,3,Average Room Rate,Small,107.1,SGD per room night
+2022-03-01,2022,3,Gross Lettings,All gazetted hotels,799174.0,room nights
+2022-03-01,2022,3,Room Revenue,All gazetted hotels,154392.1,SGD thousand
+2022-04-01,2022,4,Available Room Nights,All gazetted hotels,1315682.0,room nights
+2022-04-01,2022,4,Average Hotel Occupancy Rate,All gazetted hotels,66.4,percent
+2022-04-01,2022,4,Average Hotel Occupancy Rate,Large,65.9,percent
+2022-04-01,2022,4,Average Hotel Occupancy Rate,Medium,65.0,percent
+2022-04-01,2022,4,Average Hotel Occupancy Rate,Small,71.9,percent
+2022-04-01,2022,4,Average Room Rate,All gazetted hotels,207.2,SGD per room night
+2022-04-01,2022,4,Average Room Rate,Large,225.4,SGD per room night
+2022-04-01,2022,4,Average Room Rate,Medium,208.1,SGD per room night
+2022-04-01,2022,4,Average Room Rate,Small,113.9,SGD per room night
+2022-04-01,2022,4,Gross Lettings,All gazetted hotels,873546.0,room nights
+2022-04-01,2022,4,Room Revenue,All gazetted hotels,181792.1,SGD thousand
+2022-05-01,2022,5,Available Room Nights,All gazetted hotels,1422659.0,room nights
+2022-05-01,2022,5,Average Hotel Occupancy Rate,All gazetted hotels,72.8,percent
+2022-05-01,2022,5,Average Hotel Occupancy Rate,Large,72.0,percent
+2022-05-01,2022,5,Average Hotel Occupancy Rate,Medium,70.9,percent
+2022-05-01,2022,5,Average Hotel Occupancy Rate,Small,81.4,percent
+2022-05-01,2022,5,Average Room Rate,All gazetted hotels,223.4,SGD per room night
+2022-05-01,2022,5,Average Room Rate,Large,244.1,SGD per room night
+2022-05-01,2022,5,Average Room Rate,Medium,219.5,SGD per room night
+2022-05-01,2022,5,Average Room Rate,Small,121.9,SGD per room night
+2022-05-01,2022,5,Gross Lettings,All gazetted hotels,1035300.0,room nights
+2022-05-01,2022,5,Room Revenue,All gazetted hotels,231967.7,SGD thousand
+2022-06-01,2022,6,Available Room Nights,All gazetted hotels,1490270.0,room nights
+2022-06-01,2022,6,Average Hotel Occupancy Rate,All gazetted hotels,78.1,percent
+2022-06-01,2022,6,Average Hotel Occupancy Rate,Large,77.8,percent
+2022-06-01,2022,6,Average Hotel Occupancy Rate,Medium,75.8,percent
+2022-06-01,2022,6,Average Hotel Occupancy Rate,Small,84.8,percent
+2022-06-01,2022,6,Average Room Rate,All gazetted hotels,241.5,SGD per room night
+2022-06-01,2022,6,Average Room Rate,Large,256.9,SGD per room night
+2022-06-01,2022,6,Average Room Rate,Medium,249.8,SGD per room night
+2022-06-01,2022,6,Average Room Rate,Small,132.9,SGD per room night
+2022-06-01,2022,6,Gross Lettings,All gazetted hotels,1163500.0,room nights
+2022-06-01,2022,6,Room Revenue,All gazetted hotels,282461.0,SGD thousand
+2022-07-01,2022,7,Available Room Nights,All gazetted hotels,1542167.0,room nights
+2022-07-01,2022,7,Average Hotel Occupancy Rate,All gazetted hotels,79.1,percent
+2022-07-01,2022,7,Average Hotel Occupancy Rate,Large,79.0,percent
+2022-07-01,2022,7,Average Hotel Occupancy Rate,Medium,76.4,percent
+2022-07-01,2022,7,Average Hotel Occupancy Rate,Small,85.6,percent
+2022-07-01,2022,7,Average Room Rate,All gazetted hotels,258.5,SGD per room night
+2022-07-01,2022,7,Average Room Rate,Large,277.4,SGD per room night
+2022-07-01,2022,7,Average Room Rate,Medium,259.3,SGD per room night
+2022-07-01,2022,7,Average Room Rate,Small,142.3,SGD per room night
+2022-07-01,2022,7,Gross Lettings,All gazetted hotels,1220488.0,room nights
+2022-07-01,2022,7,Room Revenue,All gazetted hotels,316633.3,SGD thousand
+2022-08-01,2022,8,Available Room Nights,All gazetted hotels,1614058.0,room nights
+2022-08-01,2022,8,Average Hotel Occupancy Rate,All gazetted hotels,77.1,percent
+2022-08-01,2022,8,Average Hotel Occupancy Rate,Large,77.5,percent
+2022-08-01,2022,8,Average Hotel Occupancy Rate,Medium,74.3,percent
+2022-08-01,2022,8,Average Hotel Occupancy Rate,Small,81.0,percent
+2022-08-01,2022,8,Average Room Rate,All gazetted hotels,249.7,SGD per room night
+2022-08-01,2022,8,Average Room Rate,Large,266.4,SGD per room night
+2022-08-01,2022,8,Average Room Rate,Medium,246.2,SGD per room night
+2022-08-01,2022,8,Average Room Rate,Small,143.8,SGD per room night
+2022-08-01,2022,8,Gross Lettings,All gazetted hotels,1245159.0,room nights
+2022-08-01,2022,8,Room Revenue,All gazetted hotels,311521.3,SGD thousand
+2022-09-01,2022,9,Available Room Nights,All gazetted hotels,1639052.0,room nights
+2022-09-01,2022,9,Average Hotel Occupancy Rate,All gazetted hotels,82.8,percent
+2022-09-01,2022,9,Average Hotel Occupancy Rate,Large,82.8,percent
+2022-09-01,2022,9,Average Hotel Occupancy Rate,Medium,82.3,percent
+2022-09-01,2022,9,Average Hotel Occupancy Rate,Small,84.4,percent
+2022-09-01,2022,9,Average Room Rate,All gazetted hotels,283.7,SGD per room night
+2022-09-01,2022,9,Average Room Rate,Large,301.9,SGD per room night
+2022-09-01,2022,9,Average Room Rate,Medium,281.8,SGD per room night
+2022-09-01,2022,9,Average Room Rate,Small,156.2,SGD per room night
+2022-09-01,2022,9,Gross Lettings,All gazetted hotels,1357836.0,room nights
+2022-09-01,2022,9,Room Revenue,All gazetted hotels,386781.0,SGD thousand
+2022-10-01,2022,10,Available Room Nights,All gazetted hotels,1694491.0,room nights
+2022-10-01,2022,10,Average Hotel Occupancy Rate,All gazetted hotels,84.4,percent
+2022-10-01,2022,10,Average Hotel Occupancy Rate,Large,84.6,percent
+2022-10-01,2022,10,Average Hotel Occupancy Rate,Medium,82.6,percent
+2022-10-01,2022,10,Average Hotel Occupancy Rate,Small,87.5,percent
+2022-10-01,2022,10,Average Room Rate,All gazetted hotels,284.4,SGD per room night
+2022-10-01,2022,10,Average Room Rate,Large,302.1,SGD per room night
+2022-10-01,2022,10,Average Room Rate,Medium,283.4,SGD per room night
+2022-10-01,2022,10,Average Room Rate,Small,159.7,SGD per room night
+2022-10-01,2022,10,Gross Lettings,All gazetted hotels,1430698.0,room nights
+2022-10-01,2022,10,Room Revenue,All gazetted hotels,407770.5,SGD thousand
+2022-11-01,2022,11,Available Room Nights,All gazetted hotels,1612464.0,room nights
+2022-11-01,2022,11,Average Hotel Occupancy Rate,All gazetted hotels,85.8,percent
+2022-11-01,2022,11,Average Hotel Occupancy Rate,Large,86.3,percent
+2022-11-01,2022,11,Average Hotel Occupancy Rate,Medium,83.3,percent
+2022-11-01,2022,11,Average Hotel Occupancy Rate,Small,88.2,percent
+2022-11-01,2022,11,Average Room Rate,All gazetted hotels,281.5,SGD per room night
+2022-11-01,2022,11,Average Room Rate,Large,297.7,SGD per room night
+2022-11-01,2022,11,Average Room Rate,Medium,283.1,SGD per room night
+2022-11-01,2022,11,Average Room Rate,Small,161.7,SGD per room night
+2022-11-01,2022,11,Gross Lettings,All gazetted hotels,1383855.0,room nights
+2022-11-01,2022,11,Room Revenue,All gazetted hotels,389568.2,SGD thousand
+2022-12-01,2022,12,Available Room Nights,All gazetted hotels,1653139.0,room nights
+2022-12-01,2022,12,Average Hotel Occupancy Rate,All gazetted hotels,78.2,percent
+2022-12-01,2022,12,Average Hotel Occupancy Rate,Large,77.6,percent
+2022-12-01,2022,12,Average Hotel Occupancy Rate,Medium,78.2,percent
+2022-12-01,2022,12,Average Hotel Occupancy Rate,Small,82.1,percent
+2022-12-01,2022,12,Average Room Rate,All gazetted hotels,287.3,SGD per room night
+2022-12-01,2022,12,Average Room Rate,Large,301.8,SGD per room night
+2022-12-01,2022,12,Average Room Rate,Medium,296.1,SGD per room night
+2022-12-01,2022,12,Average Room Rate,Small,170.1,SGD per room night
+2022-12-01,2022,12,Gross Lettings,All gazetted hotels,1292305.0,room nights
+2022-12-01,2022,12,Room Revenue,All gazetted hotels,371353.5,SGD thousand
+2023-01-01,2023,1,Available Room Nights,All gazetted hotels,1665719.0,room nights
+2023-01-01,2023,1,Average Hotel Occupancy Rate,All gazetted hotels,71.3,percent
+2023-01-01,2023,1,Average Hotel Occupancy Rate,Large,70.3,percent
+2023-01-01,2023,1,Average Hotel Occupancy Rate,Medium,71.3,percent
+2023-01-01,2023,1,Average Hotel Occupancy Rate,Small,77.8,percent
+2023-01-01,2023,1,Average Room Rate,All gazetted hotels,265.5,SGD per room night
+2023-01-01,2023,1,Average Room Rate,Large,286.4,SGD per room night
+2023-01-01,2023,1,Average Room Rate,Medium,266.1,SGD per room night
+2023-01-01,2023,1,Average Room Rate,Small,143.0,SGD per room night
+2023-01-01,2023,1,Gross Lettings,All gazetted hotels,1187200.0,room nights
+2023-01-01,2023,1,Room Revenue,All gazetted hotels,318240.6,SGD thousand
+2023-02-01,2023,2,Available Room Nights,All gazetted hotels,1527428.0,room nights
+2023-02-01,2023,2,Average Hotel Occupancy Rate,All gazetted hotels,85.1,percent
+2023-02-01,2023,2,Average Hotel Occupancy Rate,Large,85.2,percent
+2023-02-01,2023,2,Average Hotel Occupancy Rate,Medium,83.7,percent
+2023-02-01,2023,2,Average Hotel Occupancy Rate,Small,86.9,percent
+2023-02-01,2023,2,Average Room Rate,All gazetted hotels,266.0,SGD per room night
+2023-02-01,2023,2,Average Room Rate,Large,286.9,SGD per room night
+2023-02-01,2023,2,Average Room Rate,Medium,260.0,SGD per room night
+2023-02-01,2023,2,Average Room Rate,Small,144.2,SGD per room night
+2023-02-01,2023,2,Gross Lettings,All gazetted hotels,1299656.0,room nights
+2023-02-01,2023,2,Room Revenue,All gazetted hotels,349610.3,SGD thousand
+2023-03-01,2023,3,Available Room Nights,All gazetted hotels,1726963.0,room nights
+2023-03-01,2023,3,Average Hotel Occupancy Rate,All gazetted hotels,80.0,percent
+2023-03-01,2023,3,Average Hotel Occupancy Rate,Large,79.9,percent
+2023-03-01,2023,3,Average Hotel Occupancy Rate,Medium,78.4,percent
+2023-03-01,2023,3,Average Hotel Occupancy Rate,Small,84.7,percent
+2023-03-01,2023,3,Average Room Rate,All gazetted hotels,258.4,SGD per room night
+2023-03-01,2023,3,Average Room Rate,Large,278.8,SGD per room night
+2023-03-01,2023,3,Average Room Rate,Medium,254.4,SGD per room night
+2023-03-01,2023,3,Average Room Rate,Small,142.4,SGD per room night
+2023-03-01,2023,3,Gross Lettings,All gazetted hotels,1382410.0,room nights
+2023-03-01,2023,3,Room Revenue,All gazetted hotels,360650.1,SGD thousand
+2023-04-01,2023,4,Available Room Nights,All gazetted hotels,1731007.0,room nights
+2023-04-01,2023,4,Average Hotel Occupancy Rate,All gazetted hotels,79.0,percent
+2023-04-01,2023,4,Average Hotel Occupancy Rate,Large,78.1,percent
+2023-04-01,2023,4,Average Hotel Occupancy Rate,Medium,79.9,percent
+2023-04-01,2023,4,Average Hotel Occupancy Rate,Small,83.3,percent
+2023-04-01,2023,4,Average Room Rate,All gazetted hotels,264.8,SGD per room night
+2023-04-01,2023,4,Average Room Rate,Large,285.2,SGD per room night
+2023-04-01,2023,4,Average Room Rate,Medium,259.3,SGD per room night
+2023-04-01,2023,4,Average Room Rate,Small,149.9,SGD per room night
+2023-04-01,2023,4,Gross Lettings,All gazetted hotels,1367049.0,room nights
+2023-04-01,2023,4,Room Revenue,All gazetted hotels,365627.5,SGD thousand
+2023-05-01,2023,5,Available Room Nights,All gazetted hotels,1823377.0,room nights
+2023-05-01,2023,5,Average Hotel Occupancy Rate,All gazetted hotels,80.7,percent
+2023-05-01,2023,5,Average Hotel Occupancy Rate,Large,80.1,percent
+2023-05-01,2023,5,Average Hotel Occupancy Rate,Medium,80.9,percent
+2023-05-01,2023,5,Average Hotel Occupancy Rate,Small,84.6,percent
+2023-05-01,2023,5,Average Room Rate,All gazetted hotels,264.2,SGD per room night
+2023-05-01,2023,5,Average Room Rate,Large,287.4,SGD per room night
+2023-05-01,2023,5,Average Room Rate,Medium,249.6,SGD per room night
+2023-05-01,2023,5,Average Room Rate,Small,146.7,SGD per room night
+2023-05-01,2023,5,Gross Lettings,All gazetted hotels,1471897.0,room nights
+2023-05-01,2023,5,Room Revenue,All gazetted hotels,392757.0,SGD thousand
+2023-06-01,2023,6,Available Room Nights,All gazetted hotels,1772517.0,room nights
+2023-06-01,2023,6,Average Hotel Occupancy Rate,All gazetted hotels,81.1,percent
+2023-06-01,2023,6,Average Hotel Occupancy Rate,Large,80.3,percent
+2023-06-01,2023,6,Average Hotel Occupancy Rate,Medium,82.3,percent
+2023-06-01,2023,6,Average Hotel Occupancy Rate,Small,84.2,percent
+2023-06-01,2023,6,Average Room Rate,All gazetted hotels,260.5,SGD per room night
+2023-06-01,2023,6,Average Room Rate,Large,282.3,SGD per room night
+2023-06-01,2023,6,Average Room Rate,Medium,248.9,SGD per room night
+2023-06-01,2023,6,Average Room Rate,Small,143.2,SGD per room night
+2023-06-01,2023,6,Gross Lettings,All gazetted hotels,1436929.0,room nights
+2023-06-01,2023,6,Room Revenue,All gazetted hotels,378026.9,SGD thousand
+2023-07-01,2023,7,Available Room Nights,All gazetted hotels,1833463.0,room nights
+2023-07-01,2023,7,Average Hotel Occupancy Rate,All gazetted hotels,90.3,percent
+2023-07-01,2023,7,Average Hotel Occupancy Rate,Large,90.0,percent
+2023-07-01,2023,7,Average Hotel Occupancy Rate,Medium,90.9,percent
+2023-07-01,2023,7,Average Hotel Occupancy Rate,Small,91.0,percent
+2023-07-01,2023,7,Average Room Rate,All gazetted hotels,282.0,SGD per room night
+2023-07-01,2023,7,Average Room Rate,Large,304.1,SGD per room night
+2023-07-01,2023,7,Average Room Rate,Medium,270.9,SGD per room night
+2023-07-01,2023,7,Average Room Rate,Small,160.8,SGD per room night
+2023-07-01,2023,7,Gross Lettings,All gazetted hotels,1655533.0,room nights
+2023-07-01,2023,7,Room Revenue,All gazetted hotels,472507.8,SGD thousand
+2023-08-01,2023,8,Available Room Nights,All gazetted hotels,1853198.0,room nights
+2023-08-01,2023,8,Average Hotel Occupancy Rate,All gazetted hotels,86.3,percent
+2023-08-01,2023,8,Average Hotel Occupancy Rate,Large,85.9,percent
+2023-08-01,2023,8,Average Hotel Occupancy Rate,Medium,86.7,percent
+2023-08-01,2023,8,Average Hotel Occupancy Rate,Small,87.8,percent
+2023-08-01,2023,8,Average Room Rate,All gazetted hotels,276.9,SGD per room night
+2023-08-01,2023,8,Average Room Rate,Large,301.8,SGD per room night
+2023-08-01,2023,8,Average Room Rate,Medium,260.4,SGD per room night
+2023-08-01,2023,8,Average Room Rate,Small,155.0,SGD per room night
+2023-08-01,2023,8,Gross Lettings,All gazetted hotels,1598823.0,room nights
+2023-08-01,2023,8,Room Revenue,All gazetted hotels,447521.0,SGD thousand
+2023-09-01,2023,9,Available Room Nights,All gazetted hotels,1839821.0,room nights
+2023-09-01,2023,9,Average Hotel Occupancy Rate,All gazetted hotels,82.7,percent
+2023-09-01,2023,9,Average Hotel Occupancy Rate,Large,82.1,percent
+2023-09-01,2023,9,Average Hotel Occupancy Rate,Medium,83.9,percent
+2023-09-01,2023,9,Average Hotel Occupancy Rate,Small,84.0,percent
+2023-09-01,2023,9,Average Room Rate,All gazetted hotels,314.5,SGD per room night
+2023-09-01,2023,9,Average Room Rate,Large,343.6,SGD per room night
+2023-09-01,2023,9,Average Room Rate,Medium,296.3,SGD per room night
+2023-09-01,2023,9,Average Room Rate,Small,168.8,SGD per room night
+2023-09-01,2023,9,Gross Lettings,All gazetted hotels,1521047.0,room nights
+2023-09-01,2023,9,Room Revenue,All gazetted hotels,482855.9,SGD thousand
+2023-10-01,2023,10,Available Room Nights,All gazetted hotels,1912891.0,room nights
+2023-10-01,2023,10,Average Hotel Occupancy Rate,All gazetted hotels,77.7,percent
+2023-10-01,2023,10,Average Hotel Occupancy Rate,Large,77.0,percent
+2023-10-01,2023,10,Average Hotel Occupancy Rate,Medium,78.6,percent
+2023-10-01,2023,10,Average Hotel Occupancy Rate,Small,80.4,percent
+2023-10-01,2023,10,Average Room Rate,All gazetted hotels,267.6,SGD per room night
+2023-10-01,2023,10,Average Room Rate,Large,291.5,SGD per room night
+2023-10-01,2023,10,Average Room Rate,Medium,254.6,SGD per room night
+2023-10-01,2023,10,Average Room Rate,Small,143.4,SGD per room night
+2023-10-01,2023,10,Gross Lettings,All gazetted hotels,1485727.0,room nights
+2023-10-01,2023,10,Room Revenue,All gazetted hotels,401077.4,SGD thousand
+2023-11-01,2023,11,Available Room Nights,All gazetted hotels,1872902.0,room nights
+2023-11-01,2023,11,Average Hotel Occupancy Rate,All gazetted hotels,78.3,percent
+2023-11-01,2023,11,Average Hotel Occupancy Rate,Large,77.9,percent
+2023-11-01,2023,11,Average Hotel Occupancy Rate,Medium,78.3,percent
+2023-11-01,2023,11,Average Hotel Occupancy Rate,Small,80.7,percent
+2023-11-01,2023,11,Average Room Rate,All gazetted hotels,267.2,SGD per room night
+2023-11-01,2023,11,Average Room Rate,Large,292.4,SGD per room night
+2023-11-01,2023,11,Average Room Rate,Medium,252.0,SGD per room night
+2023-11-01,2023,11,Average Room Rate,Small,141.0,SGD per room night
+2023-11-01,2023,11,Gross Lettings,All gazetted hotels,1466392.0,room nights
+2023-11-01,2023,11,Room Revenue,All gazetted hotels,395234.9,SGD thousand
+2023-12-01,2023,12,Available Room Nights,All gazetted hotels,1927619.0,room nights
+2023-12-01,2023,12,Average Hotel Occupancy Rate,All gazetted hotels,73.9,percent
+2023-12-01,2023,12,Average Hotel Occupancy Rate,Large,72.7,percent
+2023-12-01,2023,12,Average Hotel Occupancy Rate,Medium,75.8,percent
+2023-12-01,2023,12,Average Hotel Occupancy Rate,Small,78.2,percent
+2023-12-01,2023,12,Average Room Rate,All gazetted hotels,276.5,SGD per room night
+2023-12-01,2023,12,Average Room Rate,Large,303.0,SGD per room night
+2023-12-01,2023,12,Average Room Rate,Medium,262.5,SGD per room night
+2023-12-01,2023,12,Average Room Rate,Small,144.6,SGD per room night
+2023-12-01,2023,12,Gross Lettings,All gazetted hotels,1425456.0,room nights
+2023-12-01,2023,12,Room Revenue,All gazetted hotels,397733.2,SGD thousand
+2024-01-01,2024,1,Available Room Nights,All gazetted hotels,1961247.0,room nights
+2024-01-01,2024,1,Average Hotel Occupancy Rate,All gazetted hotels,78.0,percent
+2024-01-01,2024,1,Average Hotel Occupancy Rate,Large,77.5,percent
+2024-01-01,2024,1,Average Hotel Occupancy Rate,Medium,77.4,percent
+2024-01-01,2024,1,Average Hotel Occupancy Rate,Small,82.8,percent
+2024-01-01,2024,1,Average Room Rate,All gazetted hotels,268.8,SGD per room night
+2024-01-01,2024,1,Average Room Rate,Large,294.3,SGD per room night
+2024-01-01,2024,1,Average Room Rate,Medium,250.0,SGD per room night
+2024-01-01,2024,1,Average Room Rate,Small,144.4,SGD per room night
+2024-01-01,2024,1,Gross Lettings,All gazetted hotels,1530018.0,room nights
+2024-01-01,2024,1,Room Revenue,All gazetted hotels,414240.8,SGD thousand
+2024-02-01,2024,2,Available Room Nights,All gazetted hotels,1840695.0,room nights
+2024-02-01,2024,2,Average Hotel Occupancy Rate,All gazetted hotels,83.2,percent
+2024-02-01,2024,2,Average Hotel Occupancy Rate,Large,83.3,percent
+2024-02-01,2024,2,Average Hotel Occupancy Rate,Medium,82.5,percent
+2024-02-01,2024,2,Average Hotel Occupancy Rate,Small,83.7,percent
+2024-02-01,2024,2,Average Room Rate,All gazetted hotels,284.9,SGD per room night
+2024-02-01,2024,2,Average Room Rate,Large,310.2,SGD per room night
+2024-02-01,2024,2,Average Room Rate,Medium,271.7,SGD per room night
+2024-02-01,2024,2,Average Room Rate,Small,145.6,SGD per room night
+2024-02-01,2024,2,Gross Lettings,All gazetted hotels,1531303.0,room nights
+2024-02-01,2024,2,Room Revenue,All gazetted hotels,439989.4,SGD thousand
+2024-03-01,2024,3,Available Room Nights,All gazetted hotels,1953955.0,room nights
+2024-03-01,2024,3,Average Hotel Occupancy Rate,All gazetted hotels,83.4,percent
+2024-03-01,2024,3,Average Hotel Occupancy Rate,Large,83.4,percent
+2024-03-01,2024,3,Average Hotel Occupancy Rate,Medium,82.7,percent
+2024-03-01,2024,3,Average Hotel Occupancy Rate,Small,84.8,percent
+2024-03-01,2024,3,Average Room Rate,All gazetted hotels,290.5,SGD per room night
+2024-03-01,2024,3,Average Room Rate,Large,315.6,SGD per room night
+2024-03-01,2024,3,Average Room Rate,Medium,275.8,SGD per room night
+2024-03-01,2024,3,Average Room Rate,Small,161.5,SGD per room night
+2024-03-01,2024,3,Gross Lettings,All gazetted hotels,1629847.0,room nights
+2024-03-01,2024,3,Room Revenue,All gazetted hotels,477541.7,SGD thousand
+2024-04-01,2024,4,Available Room Nights,All gazetted hotels,1881289.0,room nights
+2024-04-01,2024,4,Average Hotel Occupancy Rate,All gazetted hotels,78.0,percent
+2024-04-01,2024,4,Average Hotel Occupancy Rate,Large,77.6,percent
+2024-04-01,2024,4,Average Hotel Occupancy Rate,Medium,77.4,percent
+2024-04-01,2024,4,Average Hotel Occupancy Rate,Small,81.8,percent
+2024-04-01,2024,4,Average Room Rate,All gazetted hotels,268.7,SGD per room night
+2024-04-01,2024,4,Average Room Rate,Large,296.0,SGD per room night
+2024-04-01,2024,4,Average Room Rate,Medium,250.0,SGD per room night
+2024-04-01,2024,4,Average Room Rate,Small,138.5,SGD per room night
+2024-04-01,2024,4,Gross Lettings,All gazetted hotels,1466819.0,room nights
+2024-04-01,2024,4,Room Revenue,All gazetted hotels,397468.1,SGD thousand
+2024-05-01,2024,5,Available Room Nights,All gazetted hotels,1977619.0,room nights
+2024-05-01,2024,5,Average Hotel Occupancy Rate,All gazetted hotels,78.8,percent
+2024-05-01,2024,5,Average Hotel Occupancy Rate,Large,78.3,percent
+2024-05-01,2024,5,Average Hotel Occupancy Rate,Medium,78.8,percent
+2024-05-01,2024,5,Average Hotel Occupancy Rate,Small,82.3,percent
+2024-05-01,2024,5,Average Room Rate,All gazetted hotels,270.7,SGD per room night
+2024-05-01,2024,5,Average Room Rate,Large,298.7,SGD per room night
+2024-05-01,2024,5,Average Room Rate,Medium,249.3,SGD per room night
+2024-05-01,2024,5,Average Room Rate,Small,135.7,SGD per room night
+2024-05-01,2024,5,Gross Lettings,All gazetted hotels,1557641.0,room nights
+2024-05-01,2024,5,Room Revenue,All gazetted hotels,425027.7,SGD thousand
+2024-06-01,2024,6,Available Room Nights,All gazetted hotels,1901384.0,room nights
+2024-06-01,2024,6,Average Hotel Occupancy Rate,All gazetted hotels,76.9,percent
+2024-06-01,2024,6,Average Hotel Occupancy Rate,Large,76.8,percent
+2024-06-01,2024,6,Average Hotel Occupancy Rate,Medium,75.7,percent
+2024-06-01,2024,6,Average Hotel Occupancy Rate,Small,80.1,percent
+2024-06-01,2024,6,Average Room Rate,All gazetted hotels,260.2,SGD per room night
+2024-06-01,2024,6,Average Room Rate,Large,284.6,SGD per room night
+2024-06-01,2024,6,Average Room Rate,Medium,243.7,SGD per room night
+2024-06-01,2024,6,Average Room Rate,Small,141.1,SGD per room night
+2024-06-01,2024,6,Gross Lettings,All gazetted hotels,1462537.0,room nights
+2024-06-01,2024,6,Room Revenue,All gazetted hotels,383067.9,SGD thousand
+2024-07-01,2024,7,Available Room Nights,All gazetted hotels,1985856.0,room nights
+2024-07-01,2024,7,Average Hotel Occupancy Rate,All gazetted hotels,89.4,percent
+2024-07-01,2024,7,Average Hotel Occupancy Rate,Large,89.4,percent
+2024-07-01,2024,7,Average Hotel Occupancy Rate,Medium,89.3,percent
+2024-07-01,2024,7,Average Hotel Occupancy Rate,Small,89.5,percent
+2024-07-01,2024,7,Average Room Rate,All gazetted hotels,269.2,SGD per room night
+2024-07-01,2024,7,Average Room Rate,Large,290.9,SGD per room night
+2024-07-01,2024,7,Average Room Rate,Medium,255.7,SGD per room night
+2024-07-01,2024,7,Average Room Rate,Small,155.4,SGD per room night
+2024-07-01,2024,7,Gross Lettings,All gazetted hotels,1775077.0,room nights
+2024-07-01,2024,7,Room Revenue,All gazetted hotels,482415.8,SGD thousand
+2024-08-01,2024,8,Available Room Nights,All gazetted hotels,1989129.0,room nights
+2024-08-01,2024,8,Average Hotel Occupancy Rate,All gazetted hotels,87.8,percent
+2024-08-01,2024,8,Average Hotel Occupancy Rate,Large,88.2,percent
+2024-08-01,2024,8,Average Hotel Occupancy Rate,Medium,86.5,percent
+2024-08-01,2024,8,Average Hotel Occupancy Rate,Small,88.1,percent
+2024-08-01,2024,8,Average Room Rate,All gazetted hotels,273.8,SGD per room night
+2024-08-01,2024,8,Average Room Rate,Large,298.5,SGD per room night
+2024-08-01,2024,8,Average Room Rate,Medium,254.7,SGD per room night
+2024-08-01,2024,8,Average Room Rate,Small,150.6,SGD per room night
+2024-08-01,2024,8,Gross Lettings,All gazetted hotels,1747416.0,room nights
+2024-08-01,2024,8,Room Revenue,All gazetted hotels,482894.0,SGD thousand
+2024-09-01,2024,9,Available Room Nights,All gazetted hotels,1933137.0,room nights
+2024-09-01,2024,9,Average Hotel Occupancy Rate,All gazetted hotels,83.1,percent
+2024-09-01,2024,9,Average Hotel Occupancy Rate,Large,83.2,percent
+2024-09-01,2024,9,Average Hotel Occupancy Rate,Medium,81.7,percent
+2024-09-01,2024,9,Average Hotel Occupancy Rate,Small,85.2,percent
+2024-09-01,2024,9,Average Room Rate,All gazetted hotels,312.7,SGD per room night
+2024-09-01,2024,9,Average Room Rate,Large,343.5,SGD per room night
+2024-09-01,2024,9,Average Room Rate,Medium,288.2,SGD per room night
+2024-09-01,2024,9,Average Room Rate,Small,165.0,SGD per room night
+2024-09-01,2024,9,Gross Lettings,All gazetted hotels,1606398.0,room nights
+2024-09-01,2024,9,Room Revenue,All gazetted hotels,506961.5,SGD thousand
+2024-10-01,2024,10,Available Room Nights,All gazetted hotels,1969791.0,room nights
+2024-10-01,2024,10,Average Hotel Occupancy Rate,All gazetted hotels,81.2,percent
+2024-10-01,2024,10,Average Hotel Occupancy Rate,Large,81.4,percent
+2024-10-01,2024,10,Average Hotel Occupancy Rate,Medium,79.5,percent
+2024-10-01,2024,10,Average Hotel Occupancy Rate,Small,83.6,percent
+2024-10-01,2024,10,Average Room Rate,All gazetted hotels,270.4,SGD per room night
+2024-10-01,2024,10,Average Room Rate,Large,297.2,SGD per room night
+2024-10-01,2024,10,Average Room Rate,Medium,247.7,SGD per room night
+2024-10-01,2024,10,Average Room Rate,Small,144.0,SGD per room night
+2024-10-01,2024,10,Gross Lettings,All gazetted hotels,1599072.0,room nights
+2024-10-01,2024,10,Room Revenue,All gazetted hotels,435596.4,SGD thousand
+2024-11-01,2024,11,Available Room Nights,All gazetted hotels,1921285.0,room nights
+2024-11-01,2024,11,Average Hotel Occupancy Rate,All gazetted hotels,81.7,percent
+2024-11-01,2024,11,Average Hotel Occupancy Rate,Large,81.9,percent
+2024-11-01,2024,11,Average Hotel Occupancy Rate,Medium,80.3,percent
+2024-11-01,2024,11,Average Hotel Occupancy Rate,Small,83.7,percent
+2024-11-01,2024,11,Average Room Rate,All gazetted hotels,267.6,SGD per room night
+2024-11-01,2024,11,Average Room Rate,Large,294.8,SGD per room night
+2024-11-01,2024,11,Average Room Rate,Medium,243.3,SGD per room night
+2024-11-01,2024,11,Average Room Rate,Small,141.2,SGD per room night
+2024-11-01,2024,11,Gross Lettings,All gazetted hotels,1569936.0,room nights
+2024-11-01,2024,11,Room Revenue,All gazetted hotels,422875.3,SGD thousand
+2024-12-01,2024,12,Available Room Nights,All gazetted hotels,1986279.0,room nights
+2024-12-01,2024,12,Average Hotel Occupancy Rate,All gazetted hotels,75.1,percent
+2024-12-01,2024,12,Average Hotel Occupancy Rate,Large,74.6,percent
+2024-12-01,2024,12,Average Hotel Occupancy Rate,Medium,74.3,percent
+2024-12-01,2024,12,Average Hotel Occupancy Rate,Small,80.4,percent
+2024-12-01,2024,12,Average Room Rate,All gazetted hotels,275.3,SGD per room night
+2024-12-01,2024,12,Average Room Rate,Large,302.8,SGD per room night
+2024-12-01,2024,12,Average Room Rate,Medium,255.7,SGD per room night
+2024-12-01,2024,12,Average Room Rate,Small,141.9,SGD per room night
+2024-12-01,2024,12,Gross Lettings,All gazetted hotels,1491949.0,room nights
+2024-12-01,2024,12,Room Revenue,All gazetted hotels,414055.5,SGD thousand
+2025-01-01,2025,1,Available Room Nights,All gazetted hotels,1999555.0,room nights
+2025-01-01,2025,1,Average Hotel Occupancy Rate,All gazetted hotels,81.8,percent
+2025-01-01,2025,1,Average Hotel Occupancy Rate,Large,82.3,percent
+2025-01-01,2025,1,Average Hotel Occupancy Rate,Medium,79.7,percent
+2025-01-01,2025,1,Average Hotel Occupancy Rate,Small,83.5,percent
+2025-01-01,2025,1,Average Room Rate,All gazetted hotels,272.2,SGD per room night
+2025-01-01,2025,1,Average Room Rate,Large,298.0,SGD per room night
+2025-01-01,2025,1,Average Room Rate,Medium,252.9,SGD per room night
+2025-01-01,2025,1,Average Room Rate,Small,139.8,SGD per room night
+2025-01-01,2025,1,Gross Lettings,All gazetted hotels,1636445.0,room nights
+2025-01-01,2025,1,Room Revenue,All gazetted hotels,448789.1,SGD thousand
+2025-02-01,2025,2,Available Room Nights,All gazetted hotels,1805716.0,room nights
+2025-02-01,2025,2,Average Hotel Occupancy Rate,All gazetted hotels,83.8,percent
+2025-02-01,2025,2,Average Hotel Occupancy Rate,Large,84.4,percent
+2025-02-01,2025,2,Average Hotel Occupancy Rate,Medium,81.5,percent
+2025-02-01,2025,2,Average Hotel Occupancy Rate,Small,85.0,percent
+2025-02-01,2025,2,Average Room Rate,All gazetted hotels,274.4,SGD per room night
+2025-02-01,2025,2,Average Room Rate,Large,301.3,SGD per room night
+2025-02-01,2025,2,Average Room Rate,Medium,252.8,SGD per room night
+2025-02-01,2025,2,Average Room Rate,Small,138.5,SGD per room night
+2025-02-01,2025,2,Gross Lettings,All gazetted hotels,1513781.0,room nights
+2025-02-01,2025,2,Room Revenue,All gazetted hotels,418050.0,SGD thousand
+2025-03-01,2025,3,Available Room Nights,All gazetted hotels,1986579.0,room nights
+2025-03-01,2025,3,Average Hotel Occupancy Rate,All gazetted hotels,76.1,percent
+2025-03-01,2025,3,Average Hotel Occupancy Rate,Large,76.1,percent
+2025-03-01,2025,3,Average Hotel Occupancy Rate,Medium,74.3,percent
+2025-03-01,2025,3,Average Hotel Occupancy Rate,Small,80.7,percent
+2025-03-01,2025,3,Average Room Rate,All gazetted hotels,264.4,SGD per room night
+2025-03-01,2025,3,Average Room Rate,Large,288.3,SGD per room night
+2025-03-01,2025,3,Average Room Rate,Medium,247.8,SGD per room night
+2025-03-01,2025,3,Average Room Rate,Small,147.1,SGD per room night
+2025-03-01,2025,3,Gross Lettings,All gazetted hotels,1512765.0,room nights
+2025-03-01,2025,3,Room Revenue,All gazetted hotels,402361.8,SGD thousand
+2025-04-01,2025,4,Available Room Nights,All gazetted hotels,1936880.0,room nights
+2025-04-01,2025,4,Average Hotel Occupancy Rate,All gazetted hotels,78.6,percent
+2025-04-01,2025,4,Average Hotel Occupancy Rate,Large,78.2,percent
+2025-04-01,2025,4,Average Hotel Occupancy Rate,Medium,77.5,percent
+2025-04-01,2025,4,Average Hotel Occupancy Rate,Small,83.7,percent
+2025-04-01,2025,4,Average Room Rate,All gazetted hotels,262.3,SGD per room night
+2025-04-01,2025,4,Average Room Rate,Large,289.6,SGD per room night
+2025-04-01,2025,4,Average Room Rate,Medium,240.6,SGD per room night
+2025-04-01,2025,4,Average Room Rate,Small,135.2,SGD per room night
+2025-04-01,2025,4,Gross Lettings,All gazetted hotels,1522512.0,room nights
+2025-04-01,2025,4,Room Revenue,All gazetted hotels,402282.7,SGD thousand
+2025-05-01,2025,5,Available Room Nights,All gazetted hotels,2011597.0,room nights
+2025-05-01,2025,5,Average Hotel Occupancy Rate,All gazetted hotels,79.7,percent
+2025-05-01,2025,5,Average Hotel Occupancy Rate,Large,79.5,percent
+2025-05-01,2025,5,Average Hotel Occupancy Rate,Medium,78.4,percent
+2025-05-01,2025,5,Average Hotel Occupancy Rate,Small,83.7,percent
+2025-05-01,2025,5,Average Room Rate,All gazetted hotels,264.1,SGD per room night
+2025-05-01,2025,5,Average Room Rate,Large,292.2,SGD per room night
+2025-05-01,2025,5,Average Room Rate,Medium,238.1,SGD per room night
+2025-05-01,2025,5,Average Room Rate,Small,136.9,SGD per room night
+2025-05-01,2025,5,Gross Lettings,All gazetted hotels,1602576.0,room nights
+2025-05-01,2025,5,Room Revenue,All gazetted hotels,425961.4,SGD thousand
+2025-06-01,2025,6,Available Room Nights,All gazetted hotels,1951453.0,room nights
+2025-06-01,2025,6,Average Hotel Occupancy Rate,All gazetted hotels,75.1,percent
+2025-06-01,2025,6,Average Hotel Occupancy Rate,Large,74.4,percent
+2025-06-01,2025,6,Average Hotel Occupancy Rate,Medium,75.0,percent
+2025-06-01,2025,6,Average Hotel Occupancy Rate,Small,80.1,percent
+2025-06-01,2025,6,Average Room Rate,All gazetted hotels,253.8,SGD per room night
+2025-06-01,2025,6,Average Room Rate,Large,282.8,SGD per room night
+2025-06-01,2025,6,Average Room Rate,Medium,228.2,SGD per room night
+2025-06-01,2025,6,Average Room Rate,Small,125.8,SGD per room night
+2025-06-01,2025,6,Gross Lettings,All gazetted hotels,1464683.0,room nights
+2025-06-01,2025,6,Room Revenue,All gazetted hotels,374259.9,SGD thousand
+2025-07-01,2025,7,Available Room Nights,All gazetted hotels,2049107.0,room nights
+2025-07-01,2025,7,Average Hotel Occupancy Rate,All gazetted hotels,91.3,percent
+2025-07-01,2025,7,Average Hotel Occupancy Rate,Large,91.3,percent
+2025-07-01,2025,7,Average Hotel Occupancy Rate,Medium,90.8,percent
+2025-07-01,2025,7,Average Hotel Occupancy Rate,Small,92.0,percent
+2025-07-01,2025,7,Average Room Rate,All gazetted hotels,274.1,SGD per room night
+2025-07-01,2025,7,Average Room Rate,Large,299.6,SGD per room night
+2025-07-01,2025,7,Average Room Rate,Medium,255.9,SGD per room night
+2025-07-01,2025,7,Average Room Rate,Small,145.0,SGD per room night
+2025-07-01,2025,7,Gross Lettings,All gazetted hotels,1870928.0,room nights
+2025-07-01,2025,7,Room Revenue,All gazetted hotels,517303.2,SGD thousand
+2025-08-01,2025,8,Available Room Nights,All gazetted hotels,2043771.0,room nights
+2025-08-01,2025,8,Average Hotel Occupancy Rate,All gazetted hotels,89.6,percent
+2025-08-01,2025,8,Average Hotel Occupancy Rate,Large,90.0,percent
+2025-08-01,2025,8,Average Hotel Occupancy Rate,Medium,88.4,percent
+2025-08-01,2025,8,Average Hotel Occupancy Rate,Small,90.0,percent
+2025-08-01,2025,8,Average Room Rate,All gazetted hotels,274.8,SGD per room night
+2025-08-01,2025,8,Average Room Rate,Large,300.6,SGD per room night
+2025-08-01,2025,8,Average Room Rate,Medium,254.4,SGD per room night
+2025-08-01,2025,8,Average Room Rate,Small,145.8,SGD per room night
+2025-08-01,2025,8,Gross Lettings,All gazetted hotels,1831864.0,room nights
+2025-08-01,2025,8,Room Revenue,All gazetted hotels,507461.0,SGD thousand
+2025-09-01,2025,9,Available Room Nights,All gazetted hotels,1964470.0,room nights
+2025-09-01,2025,9,Average Hotel Occupancy Rate,All gazetted hotels,81.0,percent
+2025-09-01,2025,9,Average Hotel Occupancy Rate,Large,81.6,percent
+2025-09-01,2025,9,Average Hotel Occupancy Rate,Medium,78.2,percent
+2025-09-01,2025,9,Average Hotel Occupancy Rate,Small,82.9,percent
+2025-09-01,2025,9,Average Room Rate,All gazetted hotels,272.9,SGD per room night
+2025-09-01,2025,9,Average Room Rate,Large,296.2,SGD per room night
+2025-09-01,2025,9,Average Room Rate,Medium,255.0,SGD per room night
+2025-09-01,2025,9,Average Room Rate,Small,151.8,SGD per room night
+2025-09-01,2025,9,Gross Lettings,All gazetted hotels,1591749.0,room nights
+2025-09-01,2025,9,Room Revenue,All gazetted hotels,436618.8,SGD thousand
+2025-10-01,2025,10,Available Room Nights,All gazetted hotels,2037759.0,room nights
+2025-10-01,2025,10,Average Hotel Occupancy Rate,All gazetted hotels,84.8,percent
+2025-10-01,2025,10,Average Hotel Occupancy Rate,Large,85.1,percent
+2025-10-01,2025,10,Average Hotel Occupancy Rate,Medium,82.5,percent
+2025-10-01,2025,10,Average Hotel Occupancy Rate,Small,87.6,percent
+2025-10-01,2025,10,Average Room Rate,All gazetted hotels,311.4,SGD per room night
+2025-10-01,2025,10,Average Room Rate,Large,344.1,SGD per room night
+2025-10-01,2025,10,Average Room Rate,Medium,284.1,SGD per room night
+2025-10-01,2025,10,Average Room Rate,Small,152.6,SGD per room night
+2025-10-01,2025,10,Gross Lettings,All gazetted hotels,1728322.0,room nights
+2025-10-01,2025,10,Room Revenue,All gazetted hotels,541796.9,SGD thousand
+2025-11-01,2025,11,Available Room Nights,All gazetted hotels,1964663.0,room nights
+2025-11-01,2025,11,Average Hotel Occupancy Rate,All gazetted hotels,85.0,percent
+2025-11-01,2025,11,Average Hotel Occupancy Rate,Large,85.8,percent
+2025-11-01,2025,11,Average Hotel Occupancy Rate,Medium,81.9,percent
+2025-11-01,2025,11,Average Hotel Occupancy Rate,Small,86.4,percent
+2025-11-01,2025,11,Average Room Rate,All gazetted hotels,271.0,SGD per room night
+2025-11-01,2025,11,Average Room Rate,Large,297.0,SGD per room night
+2025-11-01,2025,11,Average Room Rate,Medium,250.2,SGD per room night
+2025-11-01,2025,11,Average Room Rate,Small,140.2,SGD per room night
+2025-11-01,2025,11,Gross Lettings,All gazetted hotels,1670280.0,room nights
+2025-11-01,2025,11,Room Revenue,All gazetted hotels,454919.2,SGD thousand
+2025-12-01,2025,12,Available Room Nights,All gazetted hotels,2020644.0,room nights
+2025-12-01,2025,12,Average Hotel Occupancy Rate,All gazetted hotels,76.5,percent
+2025-12-01,2025,12,Average Hotel Occupancy Rate,Large,77.0,percent
+2025-12-01,2025,12,Average Hotel Occupancy Rate,Medium,73.2,percent
+2025-12-01,2025,12,Average Hotel Occupancy Rate,Small,80.9,percent
+2025-12-01,2025,12,Average Room Rate,All gazetted hotels,280.4,SGD per room night
+2025-12-01,2025,12,Average Room Rate,Large,308.5,SGD per room night
+2025-12-01,2025,12,Average Room Rate,Medium,258.6,SGD per room night
+2025-12-01,2025,12,Average Room Rate,Small,145.7,SGD per room night
+2025-12-01,2025,12,Gross Lettings,All gazetted hotels,1546461.0,room nights
+2025-12-01,2025,12,Room Revenue,All gazetted hotels,436546.4,SGD thousand

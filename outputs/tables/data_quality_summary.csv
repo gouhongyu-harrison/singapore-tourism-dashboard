@@ -1,0 +1,3 @@
+dataset,rows,start_date,end_date,missing_values,duplicate_keys
+visitor_arrivals,5208,2019-01-01,2025-12-01,0,0
+hotel_statistics,924,2019-01-01,2025-12-01,0,0
