@@ -1,6 +1,9 @@
 from pathlib import Path
 
 import pandas as pd
+import pytest
+
+from src.wrangle import validate_data
 
 
 BASE_DIR = Path(__file__).resolve().parents[1]
@@ -37,3 +40,25 @@ def test_hotel_data_quality() -> None:
     assert hotels.loc[
         hotels["segment"] == "All gazetted hotels", "value"
     ].notna().all()
+
+
+@pytest.mark.parametrize(
+    "invalid_value", [float("nan"), float("inf"), -1, "not-a-number"]
+)
+def test_validation_rejects_invalid_numeric_values(invalid_value: object) -> None:
+    visitors = pd.read_csv(VISITOR_FILE, parse_dates=["date"])
+    hotels = pd.read_csv(HOTEL_FILE, parse_dates=["date"])
+    visitors["arrivals"] = visitors["arrivals"].astype(object)
+    visitors.loc[0, "arrivals"] = invalid_value
+
+    with pytest.raises(ValueError, match="missing, non-finite, or negative"):
+        validate_data(visitors, hotels)
+
+
+def test_validation_rejects_incomplete_monthly_coverage() -> None:
+    visitors = pd.read_csv(VISITOR_FILE, parse_dates=["date"])
+    hotels = pd.read_csv(HOTEL_FILE, parse_dates=["date"])
+    visitors = visitors[visitors["date"] != pd.Timestamp("2019-01-01")]
+
+    with pytest.raises(ValueError, match="complete monthly coverage"):
+        validate_data(visitors, hotels)

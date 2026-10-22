@@ -173,6 +173,15 @@ def prepare_hotel_statistics(payload: dict[str, Any]) -> pd.DataFrame:
 def validate_data(visitors: pd.DataFrame, hotels: pd.DataFrame) -> None:
     """Fail clearly if required coverage, categories, or uniqueness are missing."""
     expected_years = set(range(START_YEAR, END_YEAR + 1))
+    expected_months = pd.date_range(
+        f"{START_YEAR}-01-01", f"{END_YEAR}-12-01", freq="MS"
+    ).tolist()
+    required_visitor_columns = {
+        "date", "year", "month", "market", "region", "market_type", "arrivals"
+    }
+    required_hotel_columns = {
+        "date", "year", "month", "metric", "segment", "value", "unit"
+    }
     required_markets = {"China", "India", "Indonesia", "Malaysia", "Australia"}
     required_metrics = {
         "Room Revenue",
@@ -180,10 +189,47 @@ def validate_data(visitors: pd.DataFrame, hotels: pd.DataFrame) -> None:
         "Average Hotel Occupancy Rate",
     }
 
+    for name, data, required_columns in (
+        ("Visitor", visitors, required_visitor_columns),
+        ("Hotel", hotels, required_hotel_columns),
+    ):
+        missing_columns = required_columns - set(data.columns)
+        if missing_columns:
+            raise ValueError(f"{name} data are missing columns: {sorted(missing_columns)}")
+
+        dates = pd.to_datetime(data["date"], errors="coerce")
+        if dates.isna().any():
+            raise ValueError(f"{name} data contain invalid dates")
+        if dates.dt.is_month_start.eq(False).any():
+            raise ValueError(f"{name} dates must be the first day of each month")
+        if not dates.dt.year.eq(data["year"]).all() or not dates.dt.month.eq(
+            data["month"]
+        ).all():
+            raise ValueError(f"{name} year/month values do not match their dates")
+        if dates.sort_values().drop_duplicates().tolist() != expected_months:
+            raise ValueError(
+                f"{name} data do not contain complete monthly coverage from "
+                f"{START_YEAR} to {END_YEAR}"
+            )
+
     if set(visitors["year"].unique()) != expected_years:
         raise ValueError("Visitor data do not contain every year from 2019 to 2025")
     if set(hotels["year"].unique()) != expected_years:
         raise ValueError("Hotel data do not contain every year from 2019 to 2025")
+
+    for name, data, value_column in (
+        ("Visitor arrivals", visitors, "arrivals"),
+        ("Hotel values", hotels, "value"),
+    ):
+        values = pd.to_numeric(data[value_column], errors="coerce")
+        if (
+            values.isna().any()
+            or values.isin([float("inf"), float("-inf")]).any()
+            or values.lt(0).any()
+        ):
+            raise ValueError(
+                f"{name} contain missing, non-finite, or negative values"
+            )
 
     countries = set(visitors.loc[visitors["market_type"] == "country", "market"])
     if missing := required_markets - countries:

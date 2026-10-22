@@ -45,7 +45,10 @@ def recovery_index_by_market(data: pd.DataFrame) -> pd.DataFrame:
         .drop_duplicates(["market", "month"])
     )
     result = data.merge(baseline, on=["market", "month"], how="left")
-    result["recovery_index"] = result["arrivals"] / result["arrivals_2019"] * 100
+    baseline_arrivals = result["arrivals_2019"].where(
+        result["arrivals_2019"] > 0
+    )
+    result["recovery_index"] = result["arrivals"].div(baseline_arrivals) * 100
     return result
 
 
@@ -134,6 +137,10 @@ filtered_visitors = country_data[
     country_data["year"].between(year_range[0], year_range[1])
 ].copy()
 filtered_hotels = hotels[hotels["year"].between(year_range[0], year_range[1])].copy()
+
+if filtered_visitors.empty:
+    st.warning("No visitor-arrival data are available for the selected filters.")
+    st.stop()
 
 latest_visitor_date = filtered_visitors["date"].max()
 latest_selected_arrivals = int(
@@ -234,26 +241,37 @@ with markets_tab:
     st.plotly_chart(market_bar, width="stretch")
 
     annual_market = (
-        country_data.groupby(["market", "year"], as_index=False)["arrivals"].sum()
+        filtered_visitors.groupby(["market", "year"], as_index=False)["arrivals"].sum()
         .pivot(index="market", columns="year", values="arrivals")
         .reset_index()
     )
     annual_market.columns = [str(column) for column in annual_market.columns]
-    if "2019" in annual_market.columns and "2025" in annual_market.columns:
-        annual_market["2025 recovery vs 2019 (%)"] = (
-            annual_market["2025"] / annual_market["2019"] * 100
+    recovery_column = f"{year_range[1]} vs {year_range[0]} recovery (%)"
+    if (
+        year_range[0] != year_range[1]
+        and str(year_range[0]) in annual_market.columns
+        and str(year_range[1]) in annual_market.columns
+    ):
+        baseline_arrivals = annual_market[str(year_range[0])].where(
+            annual_market[str(year_range[0])] > 0
+        )
+        annual_market[recovery_column] = (
+            annual_market[str(year_range[1])].div(baseline_arrivals) * 100
+        )
+    annual_column_config = {
+        str(year): st.column_config.NumberColumn(f"{year} arrivals", format="%,d")
+        for year in range(year_range[0], year_range[1] + 1)
+        if str(year) in annual_market.columns
+    }
+    if recovery_column in annual_market.columns:
+        annual_column_config[recovery_column] = st.column_config.NumberColumn(
+            recovery_column, format="%.1f%%"
         )
     st.dataframe(
         annual_market,
         width="stretch",
         hide_index=True,
-        column_config={
-            "2019": st.column_config.NumberColumn("2019 arrivals", format="%,d"),
-            "2025": st.column_config.NumberColumn("2025 arrivals", format="%,d"),
-            "2025 recovery vs 2019 (%)": st.column_config.NumberColumn(
-                "2025 recovery vs 2019 (%)", format="%.1f%%"
-            ),
-        },
+        column_config=annual_column_config,
     )
 
 with hotels_tab:
@@ -297,7 +315,12 @@ with hotels_tab:
         (visitors["market_type"] == "total") & (visitors["year"] == 2019)
     ][["month", "arrivals"]].rename(columns={"arrivals": "baseline"})
     total_arrivals = total_arrivals.merge(total_baseline, on="month", how="left")
-    total_arrivals["value"] = total_arrivals["arrivals"] / total_arrivals["baseline"] * 100
+    total_baseline_values = total_arrivals["baseline"].where(
+        total_arrivals["baseline"] > 0
+    )
+    total_arrivals["value"] = total_arrivals["arrivals"].div(
+        total_baseline_values
+    ) * 100
     total_arrivals["series"] = "Total visitor arrivals"
 
     room_revenue = overall_hotels[overall_hotels["metric"] == "Room Revenue"][
@@ -309,7 +332,12 @@ with hotels_tab:
         & (hotels["year"] == 2019)
     ][["month", "value"]].rename(columns={"value": "baseline"})
     room_revenue = room_revenue.merge(revenue_baseline, on="month", how="left")
-    room_revenue["value"] = room_revenue["value"] / room_revenue["baseline"] * 100
+    revenue_baseline_values = room_revenue["baseline"].where(
+        room_revenue["baseline"] > 0
+    )
+    room_revenue["value"] = room_revenue["value"].div(
+        revenue_baseline_values
+    ) * 100
     room_revenue["series"] = "Hotel room revenue"
 
     comparison = pd.concat(

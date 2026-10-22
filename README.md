@@ -71,7 +71,7 @@ From the repository root, run:
 python src/wrangle.py
 ```
 
-The script downloads the official API responses, reshapes the wide source tables, validates key fields and writes processed CSV files to `data/processed/`.
+The script downloads the official API responses, reshapes the wide source tables, validates required columns, consistent monthly dates, complete 2019-2025 coverage, numeric values, required categories and unique keys, then writes processed CSV files to `data/processed/`. It stops with a descriptive error instead of exporting data with missing, infinite or negative measure values.
 
 ## Run the dashboard
 
@@ -87,13 +87,13 @@ pytest
 
 ## Streamlit deployment
 
-Deployment URL: `[add Streamlit Community Cloud URL]`
+The dashboard is not currently deployed. To run it locally, use the command above after installing the requirements.
 
-When deploying, select `app.py` as the main file. The processed CSV files are included so that the public dashboard does not depend on a live API request during each page load.
+For a future Streamlit Community Cloud deployment, select `app.py` as the main file. The processed CSV files are included so the dashboard does not depend on a live API request during each page load.
 
 ## Methodology
 
-The visitor-arrival source is hierarchical: it contains an overall total, geographic regions and individual source markets. The wrangling script preserves those levels so that regional totals are not accidentally added to country totals.
+The visitor-arrival source is hierarchical: it contains an overall total, geographic regions and individual source markets. The wrangling script preserves those levels so that regional totals are not accidentally added to country totals. It also checks that dates are month starts, the year and month columns agree with each date, all months from January 2019 through December 2025 are present, and measure values are finite and non-negative.
 
 The main recovery measure compares each month with the same calendar month in 2019:
 
