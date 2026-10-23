@@ -47,113 +47,6 @@ st.set_page_config(
     layout="wide",
 )
 
-st.markdown(
-    """
-    <style>
-    :root {
-        --ink: #18312e;
-        --muted: #657672;
-        --green: #167368;
-        --coral: #d66a4d;
-        --line: #dce4dc;
-        --paper: #f5f6f0;
-    }
-    [data-testid="stAppViewContainer"] {
-        background-color: var(--paper);
-        background-image: linear-gradient(90deg, #18312e06 1px, transparent 1px);
-        background-size: 48px 100%;
-    }
-    [data-testid="stHeader"] { background: transparent; }
-    [data-testid="stSidebar"] {
-        background: #edf1eb;
-        border-right: 1px solid var(--line);
-    }
-    .block-container {
-        max-width: 1440px;
-        padding-top: 2rem;
-        padding-bottom: 3rem;
-    }
-    .dashboard-masthead {
-        padding: 0.3rem 0 1.7rem;
-        border-bottom: 1px solid #aebbb1;
-        margin-bottom: 1.4rem;
-    }
-    .dashboard-kicker {
-        color: var(--green);
-        font: 700 0.72rem/1.2 sans-serif;
-        letter-spacing: 0.12em;
-        text-transform: uppercase;
-        margin-bottom: 1rem;
-    }
-    .dashboard-heading-row {
-        display: flex;
-        align-items: end;
-        justify-content: space-between;
-        gap: 1.5rem;
-    }
-    .dashboard-heading-row h1 {
-        color: var(--ink);
-        font: 500 2.55rem/1.08 Georgia, "Times New Roman", serif;
-        margin: 0;
-    }
-    .dashboard-heading-row p {
-        color: var(--muted);
-        font: 400 1rem/1.5 sans-serif;
-        margin: 0.7rem 0 0;
-        max-width: 48rem;
-    }
-    .dashboard-period {
-        border-left: 2px solid var(--coral);
-        color: var(--muted);
-        flex: 0 0 auto;
-        padding: 0.15rem 0 0.15rem 0.85rem;
-        font: 400 0.78rem/1.5 sans-serif;
-    }
-    .dashboard-period strong {
-        color: var(--ink);
-        display: block;
-        font: 700 0.95rem/1.4 sans-serif;
-    }
-    [data-testid="stMetric"] {
-        background: #ffffffd9;
-        border-top: 3px solid var(--green);
-        min-height: 112px;
-        padding: 0.85rem 1rem;
-        box-shadow: 0 5px 18px #18312e0a;
-    }
-    [data-testid="stMetricLabel"] { color: var(--muted); }
-    [data-testid="stMetricValue"] { color: var(--ink); }
-    [data-testid="stTabs"] [role="tab"] {
-        color: var(--muted);
-        font-weight: 600;
-    }
-    [data-testid="stTabs"] [role="tab"][aria-selected="true"] {
-        color: var(--green);
-    }
-    [data-testid="stTabs"] [data-baseweb="tab-highlight"] {
-        background-color: var(--green);
-    }
-    [data-testid="stAlert"] { border-radius: 4px; }
-    @media (max-width: 700px) {
-        .dashboard-heading-row { align-items: start; flex-direction: column; }
-        .dashboard-heading-row h1 { font-size: 2rem; }
-        .dashboard-masthead { padding-bottom: 1.2rem; }
-    }
-    </style>
-    <div class="dashboard-masthead">
-      <div class="dashboard-kicker">Singapore Tourism Intelligence / 2019-2025</div>
-      <div class="dashboard-heading-row">
-        <div>
-          <h1>Singapore's tourism recovery</h1>
-          <p>Visitor arrivals have rebounded. The source-market mix and hotel economics tell a more nuanced story.</p>
-        </div>
-        <div class="dashboard-period"><strong>2019 &rarr; 2025</strong>Monthly official data</div>
-      </div>
-    </div>
-    """,
-    unsafe_allow_html=True,
-)
-
 
 @st.cache_data
 def load_data() -> tuple[pd.DataFrame, pd.DataFrame]:
@@ -200,7 +93,12 @@ def hotel_value(
     return None if values.empty else float(values.iloc[0])
 
 
-def add_phase_shading(figure, *, labels: bool = False) -> None:
+def add_phase_shading(
+    figure,
+    *,
+    labels: bool = False,
+    label_font_size: int | None = None,
+) -> None:
     """Mark the four analytical phases without breaking the time series."""
     for phase, start, end, colour, opacity in PHASES:
         phase_options = {
@@ -215,6 +113,8 @@ def add_phase_shading(figure, *, labels: bool = False) -> None:
                 annotation_text=phase,
                 annotation_position="top left",
             )
+            if label_font_size is not None:
+                phase_options["annotation_font_size"] = label_font_size
         figure.add_vrect(
             **phase_options,
         )
@@ -222,18 +122,17 @@ def add_phase_shading(figure, *, labels: bool = False) -> None:
 
 def polish_figure(figure, *, legend_title: str = "") -> None:
     figure.update_layout(
-        template="plotly_white",
-        colorway=["#167368", "#d66a4d", "#4776a8", "#d49a37", "#667a70"],
-        font=dict(family="Arial, sans-serif", color="#18312e"),
-        paper_bgcolor="rgba(0,0,0,0)",
-        plot_bgcolor="rgba(0,0,0,0)",
         hovermode="x unified",
         legend_title_text=legend_title,
         margin=dict(l=10, r=10, t=45, b=10),
     )
-    figure.update_xaxes(showgrid=False, zeroline=False, linecolor="#dce4dc")
-    figure.update_yaxes(gridcolor="#e7ece7", zeroline=False)
 
+
+st.title("Singapore Inbound Tourism and Hotel Recovery")
+st.caption(
+    "A descriptive account of the shock, reopening and changing visitor mix, "
+    "using monthly official data from 2019 to 2025."
+)
 
 if not VISITOR_FILE.exists() or not HOTEL_FILE.exists():
     st.error("Processed data files are missing. Run the data-wrangling script first.")
@@ -556,7 +455,6 @@ with mix_tab:
     composition_figure.update_layout(
         yaxis_range=[0, 100], margin=dict(l=10, r=10, t=20, b=10)
     )
-    polish_figure(composition_figure)
     st.plotly_chart(composition_figure, width="stretch")
 
     major_share_change = major_recovery.sort_values("share_change_pp")
@@ -577,7 +475,6 @@ with mix_tab:
     share_figure.update_layout(
         coloraxis_showscale=False, margin=dict(l=10, r=10, t=20, b=10)
     )
-    polish_figure(share_figure)
     st.plotly_chart(share_figure, width="stretch")
 
     largest_gain = major_share_change.iloc[-1]
@@ -660,7 +557,11 @@ with hotels_tab:
             title="Average hotel occupancy rate",
             color_discrete_sequence=["#2563EB"],
         )
-        add_phase_shading(occupancy_figure, labels=True)
+        add_phase_shading(
+            occupancy_figure,
+            labels=True,
+            label_font_size=9,
+        )
         polish_figure(occupancy_figure)
         st.plotly_chart(occupancy_figure, width="stretch")
     with right_chart:
@@ -672,7 +573,11 @@ with hotels_tab:
             title="Average room rate",
             color_discrete_sequence=["#0F766E"],
         )
-        add_phase_shading(rate_figure, labels=True)
+        add_phase_shading(
+            rate_figure,
+            labels=True,
+            label_font_size=9,
+        )
         polish_figure(rate_figure)
         st.plotly_chart(rate_figure, width="stretch")
 
@@ -729,7 +634,11 @@ with hotels_tab:
         color_discrete_sequence=["#2563EB", "#0F766E"],
     )
     comparison_figure.add_hline(y=100, line_dash="dash", line_color="#374151")
-    add_phase_shading(comparison_figure, labels=True)
+    add_phase_shading(
+        comparison_figure,
+        labels=True,
+        label_font_size=9,
+    )
     polish_figure(comparison_figure)
     st.plotly_chart(comparison_figure, width="stretch")
 
