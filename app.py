@@ -622,6 +622,10 @@ with mix_tab:
         )
 
 with hotels_tab:
+    st.caption(
+        "Phase shading, from left to right: 2019 baseline · Pandemic shock · "
+        "2022 reopening · 2023-2025 recovery"
+    )
     latest_hotel_date = filtered_hotels["date"].max()
     occupancy = hotel_value(
         filtered_hotels, "Average Hotel Occupancy Rate", latest_hotel_date
