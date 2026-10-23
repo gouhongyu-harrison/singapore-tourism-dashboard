@@ -10,12 +10,16 @@ How did international visitor arrivals from major source markets recover relativ
 
 ## Dashboard features
 
+- Follow a guided recovery story across four analytical phases: 2019 baseline,
+  pandemic shock, 2022 reopening and 2023-2025 recovery.
 - Select a year range from 2019 to 2025.
 - Compare multiple source markets.
 - View monthly arrivals and a same-month 2019 recovery index.
-- Compare 2019 and 2025 source-market totals.
+- Rank recovery among the 15 largest source markets in 2019.
+- Compare the 2019 and 2025 visitor mix and changes in market share.
 - Examine hotel occupancy, average room rates and room revenue.
-- Compare the recovery of total arrivals and hotel room revenue.
+- Compare the recovery and monthly correlation of total arrivals and hotel room revenue.
+- Read interpretation and causality cautions alongside the charts.
 - Download filtered visitor and hotel data.
 
 ## Data sources
@@ -40,11 +44,13 @@ singapore-tourism-dashboard/
 ├── docs/
 │   └── PROJECT_PROPOSAL.md
 ├── src/
+│   ├── analysis.py
 │   └── wrangle.py
 ├── outputs/
 │   ├── figures/
 │   └── tables/
 └── tests/
+    ├── test_analysis.py
     └── test_processed_data.py
 ```
 
@@ -95,7 +101,8 @@ For a future Streamlit Community Cloud deployment, select `app.py` as the main f
 
 The visitor-arrival source is hierarchical: it contains an overall total, geographic regions and individual source markets. The wrangling script preserves those levels so that regional totals are not accidentally added to country totals. It also checks that dates are month starts, the year and month columns agree with each date, all months from January 2019 through December 2025 are present, and measure values are finite and non-negative.
 
-The main recovery measure compares each month with the same calendar month in 2019:
+The dashboard uses two recovery measures. The monthly measure compares each month
+with the same calendar month in 2019:
 
 ```text
 Recovery index = monthly value / value in the same month of 2019 × 100
@@ -103,12 +110,20 @@ Recovery index = monthly value / value in the same month of 2019 × 100
 
 An index of 100 means the series returned to its matching 2019 level. A value below 100 means it remained below that level, while a value above 100 means it exceeded the 2019 level.
 
+The annual market ranking divides each market's 2025 annual arrivals by its 2019
+annual arrivals. The ranking is limited to the 15 largest markets in 2019 so that a
+very small starting value does not produce a misleading "fastest recovery" result.
+Visitor composition is measured as each country market's share of all country-market
+arrivals. Hotel comparisons are descriptive; correlation does not establish causality.
+
 ## Preliminary findings
 
 The processed official data currently show:
 
 - Singapore recorded 16.91 million international visitor arrivals in 2025, equal to 88.5% of the 2019 total of 19.12 million.
 - China was the largest individual source market in 2025 with 3.10 million arrivals, followed by Indonesia with 2.44 million.
+- Among the 15 largest 2019 source markets, Australia had the highest 2025 recovery rate at 110.9%, followed by Malaysia at 104.5%.
+- Australia's share of country-market arrivals increased by 1.51 percentage points between 2019 and 2025, while Indonesia's share decreased by 1.85 percentage points.
 - Average hotel occupancy was 81.9% in 2025, around 5.0 percentage points below the 2019 average.
 - The average room rate was S$273 in 2025, 23.7% above the 2019 average in nominal terms.
 - Nominal hotel room revenue reached S$5.37 billion in 2025, 27.9% above 2019 even though total visitor arrivals had not fully returned to the 2019 level.
