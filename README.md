@@ -2,7 +2,9 @@
 
 This DS608 group project examines how Singapore's international visitor arrivals recovered after the COVID-19 disruption and whether the recovery aligned with gazetted-hotel occupancy, room rates and room revenue.
 
-![Dashboard overview](outputs/figures/dashboard_overview.png)
+> The dashboard is interactive. The earlier static overview image has been removed
+> because it no longer represents the current storytelling tabs. Run `app.py` locally
+> or use the future Streamlit deployment URL to view the latest interface.
 
 ## Research question
 
