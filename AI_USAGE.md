@@ -4,6 +4,12 @@ We acknowledge the use of OpenAI Codex to support project scoping, validation of
 
 The prompts asked the tool to assess the feasibility of a Singapore tourism-recovery dashboard, distinguish the linked hotel dataset from the required visitor-arrival dataset, prepare reproducible Python code, and draft project documentation that follows the DS608 group-project requirements.
 
+A later prompt asked Codex to incorporate teaching-assistant feedback into the
+dashboard's storytelling. Codex helped implement the phase-based narrative,
+major-market recovery ranking, visitor-composition comparison, descriptive hotel
+analysis, explanatory text and automated tests. The group must verify these changes,
+understand the definitions and decide which interpretations to present.
+
 The generated outputs must be reviewed, run and modified by the group. The group remains responsible for:
 
 - verifying the data against the original data.gov.sg pages;
