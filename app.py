@@ -622,10 +622,6 @@ with mix_tab:
         )
 
 with hotels_tab:
-    st.caption(
-        "Phase shading, from left to right: 2019 baseline · Pandemic shock · "
-        "2022 reopening · 2023-2025 recovery"
-    )
     latest_hotel_date = filtered_hotels["date"].max()
     occupancy = hotel_value(
         filtered_hotels, "Average Hotel Occupancy Rate", latest_hotel_date
@@ -664,7 +660,7 @@ with hotels_tab:
             title="Average hotel occupancy rate",
             color_discrete_sequence=["#2563EB"],
         )
-        add_phase_shading(occupancy_figure)
+        add_phase_shading(occupancy_figure, labels=True)
         polish_figure(occupancy_figure)
         st.plotly_chart(occupancy_figure, width="stretch")
     with right_chart:
@@ -676,7 +672,7 @@ with hotels_tab:
             title="Average room rate",
             color_discrete_sequence=["#0F766E"],
         )
-        add_phase_shading(rate_figure)
+        add_phase_shading(rate_figure, labels=True)
         polish_figure(rate_figure)
         st.plotly_chart(rate_figure, width="stretch")
 
@@ -733,7 +729,7 @@ with hotels_tab:
         color_discrete_sequence=["#2563EB", "#0F766E"],
     )
     comparison_figure.add_hline(y=100, line_dash="dash", line_color="#374151")
-    add_phase_shading(comparison_figure)
+    add_phase_shading(comparison_figure, labels=True)
     polish_figure(comparison_figure)
     st.plotly_chart(comparison_figure, width="stretch")
 
