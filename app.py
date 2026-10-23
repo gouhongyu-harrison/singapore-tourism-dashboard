@@ -203,14 +203,20 @@ def hotel_value(
 def add_phase_shading(figure, *, labels: bool = False) -> None:
     """Mark the four analytical phases without breaking the time series."""
     for phase, start, end, colour, opacity in PHASES:
+        phase_options = {
+            "x0": start,
+            "x1": end,
+            "fillcolor": colour,
+            "opacity": opacity,
+            "line_width": 0,
+        }
+        if labels:
+            phase_options.update(
+                annotation_text=phase,
+                annotation_position="top left",
+            )
         figure.add_vrect(
-            x0=start,
-            x1=end,
-            fillcolor=colour,
-            opacity=opacity,
-            line_width=0,
-            annotation_text=phase if labels else None,
-            annotation_position="top left",
+            **phase_options,
         )
 
 
