@@ -1,20 +1,12 @@
 # Contribution Statement
 
-Replace the placeholders below with the final group-member names and actual contributions. Contributions should match the GitHub commit and pull-request history.
+Replace the placeholders below with the group members' names before submission. The project was completed collaboratively, with each member contributing approximately 50% of the total workload. Each member was responsible for roughly half of the code, and both reviewed the final analysis, dashboard and documentation. Update these descriptions if the actual contribution history differs.
 
-| Group member | Primary responsibility | Additional contributions |
-| --- | --- | --- |
-| [Member 1] | Data acquisition, cleaning and validation | Reviewed analysis and presentation |
-| [Member 2] | Exploratory analysis and visualisation | Reviewed data definitions and limitations |
-| [Member 3] | Streamlit dashboard and deployment | Repository organisation and presentation |
+| Group member | Contribution |
+| --- | --- |
+| [Member 1] | Approximately 50% of the code and overall project workload; collaborated on data processing, analysis and dashboard development. |
+| [Member 2] | Approximately 50% of the code and overall project workload; collaborated on data processing, analysis and dashboard development. |
 
 ## Collaboration workflow
 
-The group will develop changes on feature branches and merge them through reviewed pull requests. Suggested branches include:
-
-- `feature-data-wrangling`
-- `feature-analysis`
-- `feature-streamlit-dashboard`
-- `docs-proposal-readme`
-
-All members will review the final README, dashboard, presentation and limitations before submission.
+Both members contributed to project decisions and reviewed the final README, dashboard, presentation and limitations. The contribution percentages describe the intended even split and should be checked against the group's actual work and GitHub history before submission.
